@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPP Candidate Intelligence 2082</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+    <!-- Alpine component logic defined globally in head to prevent ReferenceErrors -->
+    <script>
+        function candidateDashboard() {
+            return {
+                search: '',
+                viewMode: 'grid',
+                riskFilter: 'all',
+                candidates: [],
+
+                // Native Alpine lifecycle hook
+                init() {
+                    this.loadCandidates();
+                },
+
+                get filteredCandidates() {
+                    return this.candidates.filter(c => {
+                        const matchesSearch = c.name.toLowerCase().includes(this.search.toLowerCase()) ||
+                            c.constituency.toLowerCase().includes(this.search.toLowerCase());
+                        const matchesRisk = this.riskFilter === 'all' || c.risk === this.riskFilter;
+                        return matchesSearch && matchesRisk;
+                    });
+                },
+
+                loadCandidates() {
+                    fetch('data/rpp.json')
+                        .then(response => response.json())
+                        .then(data => {
+                            this.candidates = data.map(c => ({...c, risk: c.risk ? c.risk.toLowerCase() : 'unknown'}));
+                        })
+                        .catch(error => console.error('Error loading candidates:', error));
+                }
+            };
+        }
+    </script>
+
+    <!-- Alpine.js (Deferred) -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+            color: #0f172a;
+        }
+
+        .scrollbar-hide::-webkit-scrollbar {
+            display: none;
+        }
+
+        .scrollbar-hide {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+
+        [x-cloak] {
+            display: none !important;
+        }
+    </style>
+</head>
+
+<body class="antialiased min-h-screen">
+
+    <!-- Root Alpine Component -->
+    <div x-data="candidateDashboard()" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8" x-cloak>
+
+        <!-- Header -->
+        <div class="mb-8 border-b border-slate-200 pb-6">
+            <div class="flex flex-col md:flex-row md:items-center md:justify-between">
+                <div>
+                    <h1 class="text-3xl font-bold text-slate-900 flex items-center gap-3">
+                        <i class="ph-fill ph-crown text-amber-600"></i>
+                        RPP 2082 Candidate Intel
+                    </h1>
+                    <p class="mt-2 text-sm text-slate-600">
+                        Comprehensive background checks, controversies, and EC disclosures for all <span x-text="candidates.length"></span> HoR candidates.
+                    </p>
+                </div>
+
+                <!-- Controls -->
+                <div class="mt-6 md:mt-0 flex flex-col sm:flex-row gap-4">
+                    <div class="relative">
+                        <i
+                            class="ph ph-magnifying-glass absolute left-3 top-1/2 transform -translate-y-1/2 text-slate-600"></i>
+                        <input x-model="search" type="text" placeholder="Search name or constituency..."
+                            class="w-full sm:w-64 bg-white border border-slate-300 rounded-lg pl-10 pr-4 py-2 text-sm focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500 transition-colors">
+                    </div>
+
+                    <select x-model="riskFilter"
+                        class="bg-white border border-slate-300 rounded-lg px-4 py-2 text-sm focus:outline-none focus:border-blue-500 transition-colors">
+                        <option value="all">All Risk Levels</option>
+                        <option value="high">High Risk / Criminal</option>
+                        <option value="medium">Medium / Controversial</option>
+                        <option value="low">Low Risk / Clean</option>
+                        <option value="unknown">Pending EC Data</option>
+                    </select>
+
+                    <div class="flex bg-white rounded-lg p-1 border border-slate-300">
+                        <button @click="viewMode = 'grid'"
+                            :class="{'bg-slate-100 text-slate-900 shadow': viewMode === 'grid', 'text-slate-600 hover:text-slate-900': viewMode !== 'grid'}"
+                            class="px-3 py-1.5 rounded-md text-sm font-medium transition-all">
+                            <i class="ph ph-squares-four text-lg"></i>
+                        </button>
+                        <button @click="viewMode = 'table'"
+                            :class="{'bg-slate-100 text-slate-900 shadow': viewMode === 'table', 'text-slate-600 hover:text-slate-900': viewMode !== 'table'}"
+                            class="px-3 py-1.5 rounded-md text-sm font-medium transition-all">
+                            <i class="ph ph-list-dashes text-lg"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats -->
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
+            <div class="bg-white border border-slate-200 rounded-xl p-4">
+                <div class="text-slate-600 text-xs uppercase tracking-wider font-semibold">Total Candidates</div>
+                <div class="text-2xl font-bold text-slate-900 mt-1" x-text="candidates.length"></div>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4">
+                <div class="text-slate-600 text-xs uppercase tracking-wider font-semibold">High Risk / Criminal</div>
+                <div class="text-2xl font-bold text-red-600 mt-1"
+                    x-text="candidates.filter(c => c.risk === 'high').length"></div>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4">
+                <div class="text-slate-600 text-xs uppercase tracking-wider font-semibold">Clean Profiles (Detailed)
+                </div>
+                <div class="text-2xl font-bold text-amber-600 mt-1"
+                    x-text="candidates.filter(c => c.risk === 'low').length"></div>
+            </div>
+            <div class="bg-white border border-slate-200 rounded-xl p-4">
+                <div class="text-slate-600 text-xs uppercase tracking-wider font-semibold">Pending EC Data</div>
+                <div class="text-2xl font-bold text-yellow-600 mt-1"
+                    x-text="candidates.filter(c => c.risk === 'unknown').length"></div>
+            </div>
+        </div>
+
+        <!-- Grid View -->
+        <div x-show="viewMode === 'grid'" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <template x-for="candidate in filteredCandidates" :key="candidate.id">
+                <div
+                    class="bg-white border border-slate-200 rounded-xl p-5 flex flex-col hover:border-slate-300 transition-colors relative overflow-hidden group">
+                    <!-- Risk Banner -->
+                    <div x-show="candidate.risk === 'high'"
+                        class="absolute top-0 right-0 bg-red-500/10 text-red-600 text-xs font-bold px-3 py-1 rounded-bl-lg border-b border-l border-red-200">
+                        High Risk</div>
+                    <div x-show="candidate.risk === 'medium'"
+                        class="absolute top-0 right-0 bg-orange-500/10 text-orange-600 text-xs font-bold px-3 py-1 rounded-bl-lg border-b border-l border-orange-200">
+                        Controversial</div>
+
+                    <div class="flex items-start gap-4 mb-4 mt-2">
+                        <div
+                            class="w-12 h-12 rounded-full bg-slate-100 flex items-center justify-center flex-shrink-0 text-xl font-bold text-slate-600 border border-slate-300">
+                            <span x-text="candidate.name.charAt(0)"></span>
+                        </div>
+                        <div>
+                            <h3 class="text-lg font-semibold text-slate-900 leading-tight" x-text="candidate.name"></h3>
+                            <p class="text-sm text-blue-600 font-medium" x-text="candidate.constituency"></p>
+                        </div>
+                    </div>
+
+                    <div class="space-y-3 flex-grow text-sm text-slate-700">
+                        <div><span class="text-slate-500 block text-xs uppercase">Education</span> <span
+                                x-text="candidate.education"></span></div>
+                        <div><span class="text-slate-500 block text-xs uppercase">Background / Biz</span> <span
+                                x-text="candidate.business"></span></div>
+
+                        <template x-if="candidate.gov_posts">
+                            <div><span class="text-slate-500 block text-xs uppercase">Gov Posts</span> <span
+                                    x-text="candidate.gov_posts" class="text-amber-600"></span></div>
+                        </template>
+
+                        <template x-if="candidate.controversies">
+                            <div class="bg-slate-50 p-3 rounded-lg border border-slate-200 mt-2">
+                                <span class="text-slate-500 block text-xs uppercase mb-1">Alerts / Controversies</span>
+                                <span x-text="candidate.controversies"
+                                    :class="{'text-red-600': candidate.risk === 'high', 'text-orange-600': candidate.risk === 'medium'}"></span>
+                            </div>
+                        </template>
+                    </div>
+                </div>
+            </template>
+
+            <!-- Empty State -->
+            <div x-show="filteredCandidates.length === 0" class="col-span-full py-12 text-center text-slate-500">
+                <i class="ph ph-ghost text-4xl mb-2"></i>
+                <p>No candidates found matching your criteria.</p>
+            </div>
+        </div>
+
+        <!-- Table View -->
+        <div x-show="viewMode === 'table'" class="bg-white border border-slate-200 rounded-xl overflow-hidden">
+            <div class="overflow-x-auto">
+                <table class="w-full text-left text-sm text-slate-700">
+                    <thead class="text-xs text-slate-600 uppercase bg-slate-50 border-b border-slate-200">
+                        <tr>
+                            <th class="px-6 py-4 font-semibold">Candidate</th>
+                            <th class="px-6 py-4 font-semibold">Constituency</th>
+                            <th class="px-6 py-4 font-semibold">Education & Background</th>
+                            <th class="px-6 py-4 font-semibold">Gov Posts</th>
+                            <th class="px-6 py-4 font-semibold">Risk & Controversies</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-slate-200">
+                        <template x-for="candidate in filteredCandidates" :key="candidate.id">
+                            <tr class="hover:bg-slate-50 transition-colors">
+                                <td class="px-6 py-4 font-medium text-slate-900" x-text="candidate.name"></td>
+                                <td class="px-6 py-4">
+                                    <span
+                                        class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-blue-500/10 text-blue-600 border border-blue-200"
+                                        x-text="candidate.constituency"></span>
+                                </td>
+                                <td class="px-6 py-4">
+                                    <div class="text-xs text-slate-600 mb-1" x-text="candidate.education"></div>
+                                    <div x-text="candidate.business" class="truncate max-w-xs"></div>
+                                </td>
+                                <td class="px-6 py-4 text-amber-600" x-text="candidate.gov_posts || '-'"></td>
+                                <td class="px-6 py-4 max-w-sm">
+                                    <template x-if="candidate.risk === 'high'">
+                                        <span
+                                            class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-red-500/10 text-red-600 border border-red-200 mb-2">High
+                                            Risk</span>
+                                    </template>
+                                    <template x-if="candidate.risk === 'medium'">
+                                        <span
+                                            class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-orange-500/10 text-orange-600 border border-orange-200 mb-2">Controversial</span>
+                                    </template>
+                                    <template x-if="candidate.risk === 'unknown'">
+                                        <span
+                                            class="inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-slate-100 text-slate-600 border border-slate-200 mb-2">Pending
+                                            Data</span>
+                                    </template>
+                                    <div x-text="candidate.controversies" class="text-xs text-slate-600 line-clamp-2"
+                                        :title="candidate.controversies"></div>
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
