@@ -34,12 +34,1689 @@
                 },
 
                 loadCandidates() {
-                    fetch('data/nc.json')
-                        .then(response => response.json())
-                        .then(data => {
-                            this.candidates = data.map(c => ({...c, risk: c.risk ? c.risk.toLowerCase() : 'unknown'}));
-                        })
-                        .catch(error => console.error('Error loading candidates:', error));
+                    // High-resolution intelligence data
+                    const detailedProfiles = [
+                        {
+                            id: 1,
+                            name: "Gajendra Prasad Tumyang Limbu",
+                            constituency: "Taplejung-1",
+                            education: "Bachelor's Degree from Pathibhara Wahumukhi Kyampas",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 2,
+                            name: "Narendra Kumar Kerung",
+                            constituency: "Panchthar-1",
+                            education: "Master's Degree (Management) from Tribhuvan University, Kirtipur",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 3,
+                            name: "Nishkal Rai",
+                            constituency: "Ilam-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 4,
+                            name: "Bheshraj Acharya",
+                            constituency: "Ilam-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 5,
+                            name: "Keshav Raj Pande",
+                            constituency: "Jhapa-1",
+                            education: "Bachelor's Degree from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 6,
+                            name: "Sarita Prasai",
+                            constituency: "Jhapa-2",
+                            education: "BA from Mechi Bahumukhi Kyampas Bhdrapur Jhapa",
+                            business: "N/A",
+                            gov_posts: "Member of the House of Representatives, Central Committee Member of Nepali Congress",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 7,
+                            name: "Rajendra Kumar Ghimire",
+                            constituency: "Jhapa-3",
+                            education: "Diploma from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 8,
+                            name: "Deu Kumar Thebe",
+                            constituency: "Jhapa-4",
+                            education: "SLC (School Leaving Certificate) from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 9,
+                            name: "Mandhara Chimariya",
+                            constituency: "Jhapa-5",
+                            education: "School Leaving Certificate from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 10,
+                            name: "Dipan Kumar Shrestha",
+                            constituency: "Sankhuwasabha-1",
+                            education: "MA from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 11,
+                            name: "Santosh Subba",
+                            constituency: "Tehrathum-1",
+                            education: "LLB from Mahendr Morang Wiratanagar",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 12,
+                            name: "Balkrishna Thapa",
+                            constituency: "Bhojpur-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 13,
+                            name: "Dinesh Rai",
+                            constituency: "Dhankuta-1",
+                            education: "Intermediate of Education (IEd) from Tri",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 14,
+                            name: "Khadga Bahadur Phago",
+                            constituency: "Morang-1",
+                            education: "Master's Degree from Urlawari Bahumukhi Kyampas",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 15,
+                            name: "Minendra Prasad Rijal",
+                            constituency: "Morang-2",
+                            education: "PhD in Development Economics from the University of Strathclyde, UK",
+                            business: "N/A",
+                            gov_posts: "Minister of Defense (2021-2022), Minister of Information and Communications (2014-2015)",
+                            controversies: "Accused of involvement in corruption at Nepal Television.",
+                            risk: "Medium"
+                        },
+                        {
+                            id: 16,
+                            name: "Sunil Kumar Sharma",
+                            constituency: "Morang-3",
+                            education: "Bachelor of Medicine from a university in China",
+                            business: "Medical Doctor, runs private hospitals",
+                            gov_posts: "Member of the House of Representatives",
+                            controversies: "Arrested on the charge of possessing a fake academic certificate from Bihar, India.",
+                            risk: "High"
+                        },
+                        {
+                            id: 17,
+                            name: "Guru Raj Ghimire",
+                            constituency: "Morang-4",
+                            education: "MA, BEd from Ti Yu",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 18,
+                            name: "Phul Kumar Lalwani",
+                            constituency: "Morang-5",
+                            education: "Bachelor's Degree from Patana Yunibharasiti",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 19,
+                            name: "Dr. Shekhar Koirala",
+                            constituency: "Morang-6",
+                            education: "MD in General Practice and Emergency Medicine from Tribhuvan University",
+                            business: "Medical Doctor",
+                            gov_posts: "Member of the House of Representatives",
+                            controversies: "Opposed the fast-tracking of the Land Bill.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 20,
+                            name: "Sujendra Tamang",
+                            constituency: "Sunsari-1",
+                            education: "Bachelor's Degree from Tiyu",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 21,
+                            name: "Rajiv Koirala",
+                            constituency: "Sunsari-2",
+                            education: "Bachelor's Degree from Niji/ Sarakari",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 22,
+                            name: "Bijay Kumar Gachchhadar",
+                            constituency: "Sunsari-3",
+                            education: "Master\'s Degree from Tribhuvan University",
+                            business: "N/A",
+                            gov_posts: "Deputy Prime Minister and Minister for Physical Infrastructure and Transport (2017-2018)",
+                            controversies: "Acquitted in the Lalita Niwas land grab scam.",
+                            risk: "High"
+                        },
+                        {
+                            id: 23,
+                            name: "Gyanendra Bahadur Karki",
+                            constituency: "Sunsari-4",
+                            education: "Master\'s Degree in Political Science from Tribhuvan University",
+                            business: "N/A",
+                            gov_posts: "Minister of Communication and Information Technology (2021-2022), Finance Minister (2017)",
+                            controversies: "Investigation into assets for alleged irregularities during his tenure as Energy Minister.",
+                            risk: "Medium"
+                        },
+                        {
+                            id: 24,
+                            name: "Prakash Singh Karki",
+                            constituency: "Solukhumbu-1",
+                            education: "Higher Secondary (Grade 12)",
+                            business: "N/A",
+                            gov_posts: "N/A",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 25,
+                            name: "Bir Kaji Rai",
+                            constituency: "Khotang-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 26,
+                            name: "Kumar Luitel",
+                            constituency: "Okhaldhunga-1",
+                            education: "Master's Degree from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 27,
+                            name: "Bidur Basnet",
+                            constituency: "Udayapur-1",
+                            education: "Bachelor's Degree from Tri",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 28,
+                            name: "Ram Kumar Rai",
+                            constituency: "Udayapur-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 29,
+                            name: "Ramdev Sah (Teli)",
+                            constituency: "Saptari-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 30,
+                            name: "Ram Kumar Yadav",
+                            constituency: "Saptari-2",
+                            education: "Higher Secondary (Grade 12) from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 31,
+                            name: "Dinesh Kumar Yadav",
+                            constituency: "Saptari-3",
+                            education: "Information not available",
+                            business: "N/A",
+                            gov_posts: "Member of the 2nd Federal Parliament of Nepal",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 32,
+                            name: "Teju Lal Chaudhary",
+                            constituency: "Saptari-4",
+                            education: "Master\\'s Degree from Tribhuvan University",
+                            business: "N/A",
+                            gov_posts: "Minister of Youth and Sports",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 33,
+                            name: "Ram Sundar Chaudhary",
+                            constituency: "Siraha-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 34,
+                            name: "Ram Chandra Yadav",
+                            constituency: "Siraha-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 35,
+                            name: "Subhash Chandra Yadav",
+                            constituency: "Siraha-3",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 36,
+                            name: "Chandra Kala Kumari Yadav",
+                            constituency: "Siraha-4",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 37,
+                            name: "Ajay Babu Shiwakoti",
+                            constituency: "Dolakha-1",
+                            education: "Master from Nepal",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 38,
+                            name: "Ram Chandra Khadka",
+                            constituency: "Ramechhap-1",
+                            education: "Bachelor's Degree from Tri",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 39,
+                            name: "Ujjwal Prasad Baral",
+                            constituency: "Sindhuli-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 40,
+                            name: "Sushila Thing",
+                            constituency: "Sindhuli-2",
+                            education: "MA / BL from Tribhuwan Wishw Widyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 41,
+                            name: "Ram Paltan Sah",
+                            constituency: "Dhanusha-1",
+                            education: "SLC (School Leaving Certificate) from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 42,
+                            name: "Dinesh Prasad Yadav Parsaila",
+                            constituency: "Dhanusha-2",
+                            education: "Proficiency Certificate from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 43,
+                            name: "Bimalendra Nidhi",
+                            constituency: "Dhanusha-3",
+                            education: "MA poltical science from RaRaB",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 44,
+                            name: "Mahendra Yadav",
+                            constituency: "Dhanusha-4",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 45,
+                            name: "Mukesh Raj Kafle",
+                            constituency: "Mahottari-1",
+                            education: "PhD from Tribhuwan Wish_wawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 46,
+                            name: "Kiran Yadav",
+                            constituency: "Mahottari-2",
+                            education: "BA (Bachelor's) from Tribhuwan Wish_w Widyalayahpadam Knya Kyamapas",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 47,
+                            name: "Bajrang Nepali",
+                            constituency: "Mahottari-3",
+                            education: "Bachelor's Degree from Ra",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 48,
+                            name: "Mahendra Kumar Ray",
+                            constituency: "Mahottari-4",
+                            education: "Bachelor's Degree from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 49,
+                            name: "Shambhu Lal Shrestha",
+                            constituency: "Sarlahi-1",
+                            education: "Bachelor's Degree from Nepal Kamrs Kyampas",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 50,
+                            name: "Dr. Saroj Kumar",
+                            constituency: "Sarlahi-2",
+                            education: "MBBS from Nepal Medikal Kalej Kohalapur",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 51,
+                            name: "Vinod Kumar Khanal",
+                            constituency: "Sarlahi-3",
+                            education: "Bachelor's Degree from Nepal L Kyampas",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 52,
+                            name: "Gagan Kumar Thapa",
+                            constituency: "Sarlahi-4",
+                            education: "Master of Arts in Sociology from Tribhuvan University",
+                            business: "N/A",
+                            gov_posts: "Minister of Health and Population (2016-2017), General Secretary of Nepali Congress",
+                            controversies: "Accused of being a narcissist and opportunist. Criticized the government for blocking social media platforms.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 53,
+                            name: "Mohan Acharya",
+                            constituency: "Rasuwa-1",
+                            education: "Information not available",
+                            business: "Construction business",
+                            gov_posts: "Member of the House of Representatives",
+                            controversies: "Accused of conflict of interest due to his construction business.",
+                            risk: "Medium"
+                        },
+                        {
+                            id: 54,
+                            name: "Krishna Rijal",
+                            constituency: "Dhading-1",
+                            education: "Master's Degree from Nepal Sanskrit Wish_w Widyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 55,
+                            name: "Ramesh Prasad Dhamala",
+                            constituency: "Dhading-2",
+                            education: "Bachelor's Degree from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 56,
+                            name: "Prakash Sharan Mahat",
+                            constituency: "Nuwakot-1",
+                            education: "PhD from the University of Illinois Urbana-Champaign, USA",
+                            business: "N/A",
+                            gov_posts: "Minister of Finance (2023-2024), Minister for Foreign Affairs (2016-2017)",
+                            controversies: "Accused of allowing middlemen to interfere in the budgetary process.",
+                            risk: "Medium"
+                        },
+                        {
+                            id: 57,
+                            name: "Jagadishwor Narsingh K.C.",
+                            constituency: "Nuwakot-2",
+                            education: "Bachelor's Degree from Sarswati Kyampas Kathamadaun",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 58,
+                            name: "Prabal Thapa Chhetri",
+                            constituency: "Kathmandu-1",
+                            education: "Master's Degree from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 59,
+                            name: "Kabir Sharma",
+                            constituency: "Kathmandu-2",
+                            education: "Master's Degree from Tribhuwan Wish_wawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 60,
+                            name: "Ramesh Aryal",
+                            constituency: "Kathmandu-3",
+                            education: "Bachelor's Degree from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 61,
+                            name: "Sachin Timalsena",
+                            constituency: "Kathmandu-4",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 62,
+                            name: "Pradip Poudel",
+                            constituency: "Kathmandu-5",
+                            education: "Master\\'s Degree from Tribhuvan University",
+                            business: "N/A",
+                            gov_posts: "General Secretary of Nepali Congress",
+                            controversies: "Released a 14-point manifesto for Kathmandu-5.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 63,
+                            name: "Krishna Baniyan Chhetri",
+                            constituency: "Kathmandu-6",
+                            education: "Proficiency Certificate Level from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 64,
+                            name: "Pramod Hari Guragain",
+                            constituency: "Kathmandu-7",
+                            education: "Master's Degree from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 65,
+                            name: "Sapana Rajbhandari",
+                            constituency: "Kathmandu-8",
+                            education: "Master's Degree from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 66,
+                            name: "Nanu Maiya Bastola",
+                            constituency: "Kathmandu-9",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 67,
+                            name: "Himal Karki",
+                            constituency: "Kathmandu-10",
+                            education: "Higher Secondary (Grade 12) from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 68,
+                            name: "Kiran Neupane",
+                            constituency: "Bhaktapur-1",
+                            education: "LLB from Nepal L Kyampas",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 69,
+                            name: "Kabir Rana",
+                            constituency: "Bhaktapur-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 70,
+                            name: "Uday Shamsher J.B. Rana",
+                            constituency: "Lalitpur-1",
+                            education: "Master of Arts from Cornell University, New York, USA)",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 71,
+                            name: "Prem Krishna Maharjan",
+                            constituency: "Lalitpur-2",
+                            education: "slc from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 72,
+                            name: "Jitendra Kumar Shrestha",
+                            constituency: "Lalitpur-3",
+                            education: "SLC (School Leaving Certificate) from Tri Pdm Skul",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 73,
+                            name: "Gunraj Muktan",
+                            constituency: "Kavrepalanchowk-1",
+                            education: "M phill from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 74,
+                            name: "Madhu Prasad Acharya",
+                            constituency: "Kavrepalanchowk-2",
+                            education: "Master's Degree from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 75,
+                            name: "Jang Bahadur Lama",
+                            constituency: "Sindhupalchowk-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 76,
+                            name: "Bansha Lal Tamang",
+                            constituency: "Sindhupalchowk-2",
+                            education: "MA from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 77,
+                            name: "Mahalaxmi Upadhyay (Dina)",
+                            constituency: "Makwanpur-1",
+                            education: "Master's Degree from Tri",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 78,
+                            name: "Buddha Lama",
+                            constituency: "Makwanpur-2",
+                            education: "BA from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 79,
+                            name: "Anil Kumar Jha",
+                            constituency: "Rautahat-1",
+                            education: "Bachelor's Degree (Running) from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 80,
+                            name: "Mo. Firdosh Alam",
+                            constituency: "Rautahat-2",
+                            education: "MBBS from Bolan Medikal Kalej, Pakistan",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 81,
+                            name: "Ramkripal Prasad Yadav",
+                            constituency: "Rautahat-3",
+                            education: "Master's Degree from Tribhuwan Wish_w Widyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 82,
+                            name: "Dev Prasad Timalsena",
+                            constituency: "Rautahat-4",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 83,
+                            name: "Shambhu Bahadur Budhathoki",
+                            constituency: "Bara-1",
+                            education: "Test Pass from Shri Gaurishankar Ma",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 84,
+                            name: "Bhaiyaram Prasad Yadav",
+                            constituency: "Bara-2",
+                            education: "Bachelor's Degree from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 85,
+                            name: "Farmullah Mansur",
+                            constituency: "Bara-3",
+                            education: "SLC (School Leaving Certificate) from Bord Aph Nepal",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 86,
+                            name: "Shyambabu Gupta",
+                            constituency: "Bara-4",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 87,
+                            name: "Anil Kumar Rungta",
+                            constituency: "Parsa-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 88,
+                            name: "Rima Kumari Yadav",
+                            constituency: "Parsa-2",
+                            education: "Bachelor's Degree from Bharat",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 89,
+                            name: "Rupesh Kumar Pandey",
+                            constituency: "Parsa-3",
+                            education: "Master's Degree (MA) from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 90,
+                            name: "Jalim Miya Mansuri",
+                            constituency: "Parsa-4",
+                            education: "Bachelor's Degree from Thakuram Bahumukhi Kyampas Wiragnj",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 91,
+                            name: "Dawa Dorje Lama",
+                            constituency: "Chitwan-1",
+                            education: "10 from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 92,
+                            name: "Mina Kumari Kharel",
+                            constituency: "Chitwan-2",
+                            education: "Master's Degree from Trichndr Kalej",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 93,
+                            name: "Tek Prasad Gurung",
+                            constituency: "Chitwan-3",
+                            education: "School Leaving Certificate from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 94,
+                            name: "Prem Kumar Khatri",
+                            constituency: "Gorkha-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 95,
+                            name: "Prakash Chandra Dawadi",
+                            constituency: "Gorkha-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 96,
+                            name: "Tek Bahadur Gurung",
+                            constituency: "Manang-1",
+                            education: "slc from Aanndakuti Widyapith, Swaymbhu",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 97,
+                            name: "Gam Prasad Gurung",
+                            constituency: "Lamjung-1",
+                            education: "Bachelor's Degree from Tri",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 98,
+                            name: "Tilak Bahadur Ranabhat",
+                            constituency: "Kaski-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 99,
+                            name: "Madhav Prasad Banstola",
+                            constituency: "Kaski-2",
+                            education: "Master's Degree from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 100,
+                            name: "Manoj Gurung",
+                            constituency: "Kaski-3",
+                            education: "SLC (School Leaving Certificate) from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 101,
+                            name: "Govinda Bhattarai",
+                            constituency: "Tanahun-1",
+                            education: "Master's Degree from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 102,
+                            name: "Shankar Bhandari",
+                            constituency: "Tanahun-2",
+                            education: "Bachelor's Degree from Trichndr Kyampas, Kathamadaun",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 103,
+                            name: "Bharat Raj Dhakal",
+                            constituency: "Syangja-1",
+                            education: "MBA from Sikkim manipal university",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 104,
+                            name: "Bhagawat Prakash Malla",
+                            constituency: "Syangja-2",
+                            education: "Bachelor from T",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 105,
+                            name: "Chandrakanta Bhandari",
+                            constituency: "Gulmi-1",
+                            education: "PhD from T",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 106,
+                            name: "Bhuvan Prasad Shrestha",
+                            constituency: "Gulmi-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 107,
+                            name: "Sandip Rana",
+                            constituency: "Palpa-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 108,
+                            name: "Himal Datta Shrestha",
+                            constituency: "Palpa-2",
+                            education: "Bachelor's Degree from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 109,
+                            name: "Vishnu Prasad Khanal",
+                            constituency: "Arghakhanchi-1",
+                            education: "Bachelor's Degree from T",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 110,
+                            name: "Bal Krishna Ghimire",
+                            constituency: "Nawalparasi (East)-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 111,
+                            name: "Om Bahadur Gharti",
+                            constituency: "Nawalparasi (East)-2",
+                            education: "Master's Degree from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 112,
+                            name: "Hira Bahadur Khatri",
+                            constituency: "Rupandehi-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 113,
+                            name: "Chunna Prasad Sharma",
+                            constituency: "Rupandehi-2",
+                            education: "Literate from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 114,
+                            name: "Sushil Gurung",
+                            constituency: "Rupandehi-3",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 115,
+                            name: "Ashutosh Mishra",
+                            constituency: "Rupandehi-4",
+                            education: "Master's Degree from T",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 116,
+                            name: "Bharat Kumar Shah",
+                            constituency: "Rupandehi-5",
+                            education: "Master's Degree from Tribhuwan Wishw Widyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 117,
+                            name: "Athar Kamal Musalman",
+                            constituency: "Kapilbastu-1",
+                            education: "ISc from Shiwapati Intar Kalej Soharatagadh, Bharat",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 118,
+                            name: "Surendra Raj Acharya",
+                            constituency: "Kapilbastu-2",
+                            education: "Bachelor's Degree from Tri",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 119,
+                            name: "Abhishek Pratap Shah",
+                            constituency: "Kapilbastu-3",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 120,
+                            name: "Yogesh Gauchan Thakali",
+                            constituency: "Mustang-1",
+                            education: "Master's Degree from Alliance university",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 121,
+                            name: "Karna Bahadur Bhandari",
+                            constituency: "Myagdi-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 122,
+                            name: "Bhim Bahadur Shris Rana",
+                            constituency: "Baglung-1",
+                            education: "Master's Degree from Tri",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 123,
+                            name: "Tek Raj Paudel",
+                            constituency: "Baglung-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 124,
+                            name: "Arjun Prasad Joshi",
+                            constituency: "Parbat-1",
+                            education: "Master of Arts from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 125,
+                            name: "Kusum Devi Thapa",
+                            constituency: "Rukum (East)-1",
+                            education: "Master's Degree from Tri",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 126,
+                            name: "Sudan Kumar Oli",
+                            constituency: "Rolpa-1",
+                            education: "PhD from Yunibhorsiti Aph Intaraneshanal Wijanesh End Ikonomiks",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 127,
+                            name: "Dr. Govinda Raj Pokharel",
+                            constituency: "Pyuthan-1",
+                            education: "PhD from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 128,
+                            name: "Kesh Bahadur Bishta",
+                            constituency: "Salyan-1",
+                            education: "Intermediate of Law (IL) from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 129,
+                            name: "Yogendra Chaudhary",
+                            constituency: "Dang-1",
+                            education: "Master's Degree from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 130,
+                            name: "Kiran Kishor Ghimire",
+                            constituency: "Dang-2",
+                            education: "MA from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 131,
+                            name: "Dipak Giri",
+                            constituency: "Dang-3",
+                            education: "Master of Arts from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 132,
+                            name: "Karna Bahadur Budha",
+                            constituency: "Dolpa-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 133,
+                            name: "Khadga Shahi",
+                            constituency: "Mugu-1",
+                            education: "+2 pass from bishnu mavi kathmandu",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 134,
+                            name: "Dip Bahadur Shahi",
+                            constituency: "Jumla-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 135,
+                            name: "Harsha Bahadur Bam",
+                            constituency: "Kalikot-1",
+                            education: "Intermediate of Arts (IA) from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 136,
+                            name: "Jaya Pati Rokaya",
+                            constituency: "Humla-1",
+                            education: "School Leaving Certificate from Shri Manasarowar U",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 137,
+                            name: "Khadak Bahadur Budha",
+                            constituency: "Jajarkot-1",
+                            education: "MA from tu",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 138,
+                            name: "Basana Thapa",
+                            constituency: "Dailekh-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 139,
+                            name: "Dikpal Kumar Shahi",
+                            constituency: "Dailekh-2",
+                            education: "Proficiency Certificate Level from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 140,
+                            name: "Vishnu Bahadur Khadka",
+                            constituency: "Surkhet-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 141,
+                            name: "Narayan Kumar Koirala",
+                            constituency: "Surkhet-2",
+                            education: "Master's Degree from Mdhyapshchim Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 142,
+                            name: "Narayan Prasad Gaudel",
+                            constituency: "Banke-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 143,
+                            name: "Sudhanshu Koirala",
+                            constituency: "Banke-2",
+                            education: "MA from Nepal Kamrs Kyampas Min Bhawan",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 144,
+                            name: "Amar Singh Pun",
+                            constituency: "Banke-3",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 145,
+                            name: "Sanjay Kumar Gautam",
+                            constituency: "Bardiya-1",
+                            education: "Information not available",
+                            business: "N/A",
+                            gov_posts: "Minister of Irrigation",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 146,
+                            name: "Kishor Singh Rathore",
+                            constituency: "Bardiya-2",
+                            education: "Information not available",
+                            business: "N/A",
+                            gov_posts: "Deputy General Secretary of Nepali Congress, Member of the House of Representatives",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 147,
+                            name: "Janak Raj Giri",
+                            constituency: "Bajura-1",
+                            education: "Bachelor's Degree from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 148,
+                            name: "Bharat Kumar Swar",
+                            constituency: "Achham-1",
+                            education: "IA from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 149,
+                            name: "Pushpa Bahadur Shah",
+                            constituency: "Achham-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 150,
+                            name: "Prakash Rasaili Snehi",
+                            constituency: "Bajhang-1",
+                            education: "MA (Political Science) from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 151,
+                            name: "Bharat Bahadur Khadka",
+                            constituency: "Doti-1",
+                            education: "Bachelor's Degree from Doti Bahumukhi Kympas",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 152,
+                            name: "Janakraj Chaudhary",
+                            constituency: "Kailali-1",
+                            education: "Master's Degree from Tribhuwan Wishwawidyalay",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 153,
+                            name: "Vijay Bahadur Swanr",
+                            constituency: "Kailali-2",
+                            education: "BA from",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 154,
+                            name: "Bhim Baduwal",
+                            constituency: "Kailali-3",
+                            education: "MA LLB from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 155,
+                            name: "Gorakh Bahadur Bishta",
+                            constituency: "Kailali-4",
+                            education: "Bachelor's Degree from Tribhuvan University",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 156,
+                            name: "Nar Narayan Shah",
+                            constituency: "Kailali-5",
+                            education: "Bachelor's Degree from Lakhanau Bishwawidyalay Bharat",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 157,
+                            name: "Dharmananda Joshi",
+                            constituency: "Darchula-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 158,
+                            name: "Chatur Bahadur Chand",
+                            constituency: "Baitadi-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 159,
+                            name: "Nain Singh Mahar",
+                            constituency: "Dadeldhura-1",
+                            education: "Master\\'s Degree from Tribhuvan University",
+                            business: "N/A",
+                            gov_posts: "Head of the Education Department of the Nepali Congress",
+                            controversies: "Criticized the growing trend of sidelining constitutional and organizational mechanisms in Nepal\\'s political landscape.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 160,
+                            name: "Gopi Prasad Upadhyaya",
+                            constituency: "Kanchanpur-1",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 161,
+                            name: "Narayan Prakash Saud",
+                            constituency: "Kanchanpur-2",
+                            education: "Bachelor\\'s Degree from Tribhuvan University",
+                            business: "N/A",
+                            gov_posts: "Minister for Foreign Affairs (2023-2024)",
+                            controversies: "Objected to the government\\'s decision to recall 11 envoys.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 162,
+                            name: "Hari Prasad Bohara",
+                            constituency: "Kanchanpur-3",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 163,
+                            name: "Vinod Kumar Chaudhary",
+                            constituency: "Nawalparasi (West)-1",
+                            education: "Bachelor\\'s Degree from Saraswati Campus",
+                            business: "Chairman of Chaudhary Group (CG Corp Global)",
+                            gov_posts: "Member of the House of Representatives",
+                            controversies: "Under investigation by the CIB over the Bansbari land scam.",
+                            risk: "High"
+                        },
+                        {
+                            id: 164,
+                            name: "Bhim Bahadur Thapa Chhetri",
+                            constituency: "Nawalparasi (West)-2",
+                            education: "Information not available",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        },
+                        {
+                            id: 165,
+                            name: "Raju K.C.",
+                            constituency: "Rukum (West)-1",
+                            education: "School Leaving Certificate from Balakumari Ma",
+                            business: "Information not available",
+                            gov_posts: "Information not available",
+                            controversies: "No major controversies found.",
+                            risk: "Low"
+                        }
+                    ];
+
+                    const rawList = `Taplejung-1:Birendra Shrestha,Panchthar-1:Mahendra Bikram Thamsuhang,Ilam-1:Bimal Gadal,Ilam-2:Gokul Bahadur Rai,Jhapa-1:Nisha Dangi,Jhapa-2:Indira Ranamagar,Jhapa-3:Prakash Pathak,Jhapa-4:Shambhu Sushkera,Sankhuwasabha-1:Mingma Sherpa,Terhathum-1:Surendra Karki,Bhojpur-1:Ramesh Prasad Ojha,Dhankuta-1:Dinesh Bhandari,Morang-1:Yagya Mani Neupane,Morang-2:Krishna Kumar Karki,Morang-3:Ganesh Karki,Morang-4:Santosh Rajbanshi,Morang-5:Asha Jha,Morang-6:Rubina Acharya,Sunsari-1:Sarin Tamang (Goma),Sunsari-2:Lal Bikram,Sunsari-3:Ashok Chaudhary,Sunsari-4:Dipak Kumar Shah,Solukhumbu-1:Rishidhan Rai,Khotang-1:Rudra Giri,Okhaldhunga-1:Bishwaraj Pokharel,Udayapur-1:Parash Gelal,Udayapur-2:Surya Bahadur Tamang,Siraha-1:Bablu Gupta,Siraha-2:Shiv Shankar Yadav,Siraha-3:Dr. Shambhu Yadav,Siraha-4:Tapeshwar Yadav,Dhanusha-4:Raj Kishor Mahato,Mahottari-1:Pramod Mahato,Mahottari-2:Dipak Sah,Mahottari-3:Ujjwal Jha,Mahottari-4:Gauri Kumari Yadav,Sarlahi-1:Nitima Karki,Sarlahi-2:Rabin Mahato,Sarlahi-3:Narendra Sah Kalwar,Rautahat-1:Rajesh Chaudhary,Rautahat-2:Sheikh Sagir,Rautahat-3:Dhiraj Patel,Rautahat-4:Ganesh Paudel,Bara-1:Ganesh Dhimal,Bara-2:Chandan Singh,Bara-3:Arbind Sah,Bara-4:Rahbar Ansari,Parsa-1:Hari Pant,Parsa-2:Sushil Patel,Parsa-3:Ramakant Chaurasiya,Parsa-4:Tek Shakya,Saptari-1:Pushpa Chaudhary,Saptari-2:Ramji Yadav,Saptari-4:Sitaram Sah,Dolakha-1:Jagadish Kharel,Ramechhap-1:Krishna Hari Budhathoki,Sindhuli-1:Dhanendra Karki,Sindhuli-2:Ashish Gajurel,Rasuwa-1:Basanta Bhatt,Dhading-1:Ashika Tamang,Dhading-2:Bodh Narayan Shrestha,Nuwakot-1:Dr. Bikram Timilsina,Nuwakot-2:Dr. Achyut Ram Lamichhane,Kathmandu-2:Sunil KC,Kathmandu-3:Raju Pandey,Kathmandu-5:Sasmita Pokharel,Kathmandu-7:Ganesh Parajuli,Kathmandu-9:Dol Prasad Aryal,Kathmandu-10:Pradeep Bista,Bhaktapur-1:Rukesh Ranjit,Bhaktapur-2:Rajiv Khatri,Lalitpur-1:Buddharatna Maharjan,Lalitpur-2:Jagadish Kharel,Kavrepalanchok-1:Madhu Kumar Chaulagain,Kavrepalanchok-2:Badan Kumar Bhandari,Sindhupalchok-1:Bharat Prasad Parajuli,Sindhupalchok-2:Ajay Shrestha,Makwanpur-1:Prakash Gautam,Makwanpur-2:Prashant Upreti,Chitwan-1:Hari Dhakal,Gorkha-1:Sudan Gurung,Gorkha-2:Kavindra Burlakoti,Lamjung-1:Dharmaraj KC,Kaski-1:Khadak Raj Paudel,Kaski-2:Uttam Paudel,Kaski-3:Bina Gurung,Tanahun-2:Shriram Neupane,Syangja-1:Dhananjaya Regmi,Syangja-2:Jhabilal Dumre,Nawalpur-1:Rajan Gautam,Nawalpur-2:Manish Khanal,Mustang-1:Aditya Thakali,Myagdi-1:Yubaraj Roka,Baglung-1:Sushil Khadka,Baglung-2:Som Sharma,Parbat-1:Sagar Bhusal,Gulmi-1:Sagar Dhakal,Gulmi-2:Gobinda Panthi,Palpa-1:Bimal Pant,Palpa-2:Madhav Thapa,Arghakhanchi-1:Hari Prasad Bhusal,Nawalparasi-1:Bikram Khanal,Nawalparasi-2:Narendra Kumar Gupta,Rupandehi-1:Sunil Lamsal,Rupandehi-2:Sulabh Kharel,Rupandehi-3:Lekh Jung Thapa,Rupandehi-4:Kanya Banaya,Rupandehi-5:Tafiq Ahmad Khan,Kapilvastu-1:Mohan Acharya,Kapilvastu-2:Bikram Thapa,Kapilvastu-3:Prakash Rajouria,Eastern Rukum-1:Lakhan Thapa,Rolpa-1:Balram Thapa,Pyuthan-1:Sushant Baidik,Dang-1:Devaraj Pathak,Dang-2:Bipin Acharya,Dang-3:Kamal Subedi,Banke-1:Suresh Chaudhary,Banke-2:Bibek Shrestha,Banke-3:Khagendra Sunar,Bardiya-1:Thakur Singh Tharu,Bardiya-2:Shridhar Pokharel,Salyan-1:Lalit Kumar Chand,Dolpa-1:Dev Singh Aidi,Mugu-1:Rajendra Bahadur Shahi,Jumla-1:Binita Kathayat,Kalikot-1:Prakash Neupane,Humla-1:Tashi Lhazom,Jajarkot-1:Raghav Karki,Dailekh-1:N. K. Basnet,Dailekh-2:Bakhat Bahadur Shahi,Surkhet-1:Tek Bahadur Singh Thakuri,Surkhet-2:Ramesh Sapkota,Western Rukum-1:Man Bahadur Shahi,Bajura-1:Hemraj Thapa,Achham-1:Om Prakash Rawal,Achham-2:Bhupdev Shah,Bajhang-1:Shailesh Kumar Singh,Doti-1:Narendra Bahadur Khadka,Kailali-1:Komal Gyawali,Kailali-2:K. P. Khanal,Kailali-3:Jagat Prasad Joshi,Kailali-4:Khemraj Koirala,Kailali-5:Anand Chand,Darchula-1:Rajesh Singh Samant,Baitadi-1:Harimohan Bhandari,Dadeldhura-1:Dr. Tara Joshi,Kanchanpur-1:Janak Singh Dhami,Kanchanpur-2:Dipak Bohara,Kanchanpur-3:Gyanendra Mahatara`;
+
+                    let baseId = 1;
+                    const fullList = detailedProfiles.map(p => ({ id: baseId++, ...p }));
+                    const existingNames = new Set(detailedProfiles.map(p => p.name));
+
+                    rawList.split(',').forEach(item => {
+                        const parts = item.split(':');
+                        if (parts.length === 2) {
+                            const constituency = parts[0].trim();
+                            const name = parts[1].trim();
+
+                            // Only add if not already in detailed profiles
+                            if (!existingNames.has(name)) {
+                                fullList.push({
+                                    id: baseId++,
+                                    name: name,
+                                    constituency: constituency,
+                                    education: "Data Restricted by EC",
+                                    business: "Data Restricted by EC",
+                                    gov_posts: "",
+                                    controversies: "Pending financial & background disclosure clearance.",
+                                    risk: "unknown"
+                                });
+                            }
+                        }
+                    });
+
+                    this.candidates = fullList;
                 }
             };
         }
@@ -86,8 +1763,8 @@
                         Nepali Congress 2082 Candidate Intel
                     </h1>
                     <p class="mt-2 text-sm text-slate-600">
-                        Comprehensive background checks, controversies, and EC disclosures for all <span x-text="candidates.length"></span> HoR candidates.
-
+                        Comprehensive background checks, controversies, and EC disclosures for all 164 HoR candidates.
+                        <br>Total Election Cap: <span class="text-emerald-600 font-semibold">NPR 10.52 Billion</span>
                     </p>
                 </div>
 

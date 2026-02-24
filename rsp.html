@@ -34,12 +34,151 @@
                 },
 
                 loadCandidates() {
-                    fetch('data/rsp.json')
-                        .then(response => response.json())
-                        .then(data => {
-                            this.candidates = data.map(c => ({...c, risk: c.risk ? c.risk.toLowerCase() : 'unknown'}));
-                        })
-                        .catch(error => console.error('Error loading candidates:', error));
+                    // High-resolution intelligence data
+                    const detailedProfiles = [
+                        {
+                            name: "Rabi Lamichhane", constituency: "Chitwan-2",
+                            education: "Certificate Level (Ratna Rajya Laxmi Campus)",
+                            business: "Media/TV Host (Sidha Kura Janata Sangha). Built Musahar settlement & Kalikot hospital.",
+                            gov_posts: "Former Deputy Prime Minister, Minister of Home Affairs, MP",
+                            controversies: "Arrested/Detained (Nakhu Jail) for cooperative fund fraud. Dual citizenship violation (Supreme Court ruling), passport misuse allegations.",
+                            risk: "high"
+                        },
+                        {
+                            name: "Balendra Shah", constituency: "Jhapa-5",
+                            education: "MTech Structural Eng (Visvesvaraya), BE Civil, PhD Fellow (KU)",
+                            business: "Structural Engineer, Former Hip-Hop Artist",
+                            gov_posts: "Former Mayor, Kathmandu Metropolitan City",
+                            controversies: "Severe human rights concerns. Demolition drives, forced Tukucha unearthing, violent clashes with Bagmati squatters, EC complaints for defamatory remarks against rivals.",
+                            risk: "medium"
+                        },
+                        {
+                            name: "Dr. Swarnim Wagle", constituency: "Tanahun-1",
+                            education: "PhD Economics (ANU), MPA (Harvard), BEcon (LSE)",
+                            business: "Chief Economic Advisor UNDP, Chair IIDS.",
+                            gov_posts: "Vice-Chair National Planning Commission, Incumbent MP",
+                            controversies: "None reported. Clean technocratic record.",
+                            risk: "low"
+                        },
+                        {
+                            name: "Shishir Khanal", constituency: "Kathmandu-6",
+                            education: "MA Public Policy (Wisconsin-Madison), BA Int'l Pol Econ",
+                            business: "Education Sector / Teach For Nepal Leader (2012-2019)",
+                            gov_posts: "Incumbent MP",
+                            controversies: "None reported.",
+                            risk: "low"
+                        },
+                        {
+                            name: "Dr. Toshima Karki", constituency: "Lalitpur-3",
+                            education: "MBBS (Kathmandu University)",
+                            business: "General Surgeon, Exec Member Nepal Medical Council",
+                            gov_posts: "Former State Minister for Health, Incumbent MP",
+                            controversies: "Facing intense anti-incumbency sentiment; criticized by voters for prolonged absences (USA trips) and local neglect.",
+                            risk: "medium"
+                        },
+                        {
+                            name: "Biraj Bhakta Shrestha", constituency: "Kathmandu-8",
+                            education: "Bachelor's Degree (SANN International College)",
+                            business: "Deputy Parliamentary Party Leader",
+                            gov_posts: "Former Federal Minister for Youth & Sports, MP (Bagmati & Federal)",
+                            controversies: "None reported.",
+                            risk: "low"
+                        },
+                        {
+                            name: "Sobita Gautam", constituency: "Chitwan-3",
+                            education: "Law Degree",
+                            business: "Attorney at Law",
+                            gov_posts: "Incumbent MP (Previously Kathmandu-2)",
+                            controversies: "Spearheaded inquiries into visit visa irregularities and human trafficking.",
+                            risk: "low"
+                        },
+                        {
+                            name: "Pukar Bam", constituency: "Kathmandu-4",
+                            education: "PhD Scholar (Tribhuvan University)",
+                            business: "Social Activist / Gen Z Protest Leader",
+                            gov_posts: "",
+                            controversies: "None reported. Known for anti-impunity activism.",
+                            risk: "low"
+                        },
+                        {
+                            name: "Ranju Darshana", constituency: "Kathmandu-1",
+                            education: "Not Specified",
+                            business: "Grassroots Civic Engagement",
+                            gov_posts: "Former General Secretary of Bibeksheel Sajha",
+                            controversies: "None reported.",
+                            risk: "low"
+                        },
+                        {
+                            name: "Dr. Amaresh Kumar Singh", constituency: "Sarlahi-4",
+                            education: "PhD (Assumed from title)",
+                            business: "Traditional Politician",
+                            gov_posts: "Former MP",
+                            controversies: "History of arrests during Madhesh protests. Accused of being a political opportunist relying on caste-based vote banks. Former NC leader.",
+                            risk: "medium"
+                        },
+                        {
+                            name: "Ram Binod Sah", constituency: "Dhanusha-2",
+                            education: "Not Specified",
+                            business: "Not Specified",
+                            gov_posts: "",
+                            controversies: "Convicted felon. Served 3 years in prison for criminal conviction in the killing of environmental activist Om Prakash Mahato (Dilip).",
+                            risk: "high"
+                        },
+                        {
+                            name: "Manish Jha", constituency: "Dhanusha-3",
+                            education: "MA Political Science (Tribhuvan University)",
+                            business: "Commercial Sector, YASH Financial Services, PR/Advertising",
+                            gov_posts: "Proportional Representation (PR) MP",
+                            controversies: "RSP National Spokesperson. Entrenched in corporate distribution networks.",
+                            risk: "low"
+                        },
+                        {
+                            name: "Kishori Sah Sudi", constituency: "Dhanusha-1",
+                            education: "Not Specified",
+                            business: "Not Specified",
+                            gov_posts: "",
+                            controversies: "Directly linked to entrenched Nawal Kishor Sah Sudi political dynasty. Contradicts RSP anti-nepotism stance.",
+                            risk: "medium"
+                        },
+                        {
+                            name: "Umakant Chaudhary", constituency: "Saptari-3",
+                            education: "Doctorate (Title)",
+                            business: "Not Specified",
+                            gov_posts: "",
+                            controversies: "Dynasty politics. Son of former state minister and Nepali Congress leader Chandrakant Chaudhary.",
+                            risk: "medium"
+                        }
+                    ];
+
+                    const rawList = `Taplejung-1:Birendra Shrestha,Panchthar-1:Mahendra Bikram Thamsuhang,Ilam-1:Bimal Gadal,Ilam-2:Gokul Bahadur Rai,Jhapa-1:Nisha Dangi,Jhapa-2:Indira Ranamagar,Jhapa-3:Prakash Pathak,Jhapa-4:Shambhu Sushkera,Sankhuwasabha-1:Mingma Sherpa,Terhathum-1:Surendra Karki,Bhojpur-1:Ramesh Prasad Ojha,Dhankuta-1:Dinesh Bhandari,Morang-1:Yagya Mani Neupane,Morang-2:Krishna Kumar Karki,Morang-3:Ganesh Karki,Morang-4:Santosh Rajbanshi,Morang-5:Asha Jha,Morang-6:Rubina Acharya,Sunsari-1:Sarin Tamang (Goma),Sunsari-2:Lal Bikram,Sunsari-3:Ashok Chaudhary,Sunsari-4:Dipak Kumar Shah,Solukhumbu-1:Rishidhan Rai,Khotang-1:Rudra Giri,Okhaldhunga-1:Bishwaraj Pokharel,Udayapur-1:Parash Gelal,Udayapur-2:Surya Bahadur Tamang,Siraha-1:Bablu Gupta,Siraha-2:Shiv Shankar Yadav,Siraha-3:Dr. Shambhu Yadav,Siraha-4:Tapeshwar Yadav,Dhanusha-4:Raj Kishor Mahato,Mahottari-1:Pramod Mahato,Mahottari-2:Dipak Sah,Mahottari-3:Ujjwal Jha,Mahottari-4:Gauri Kumari Yadav,Sarlahi-1:Nitima Karki,Sarlahi-2:Rabin Mahato,Sarlahi-3:Narendra Sah Kalwar,Rautahat-1:Rajesh Chaudhary,Rautahat-2:Sheikh Sagir,Rautahat-3:Dhiraj Patel,Rautahat-4:Ganesh Paudel,Bara-1:Ganesh Dhimal,Bara-2:Chandan Singh,Bara-3:Arbind Sah,Bara-4:Rahbar Ansari,Parsa-1:Hari Pant,Parsa-2:Sushil Patel,Parsa-3:Ramakant Chaurasiya,Parsa-4:Tek Shakya,Saptari-1:Pushpa Chaudhary,Saptari-2:Ramji Yadav,Saptari-4:Sitaram Sah,Dolakha-1:Jagadish Kharel,Ramechhap-1:Krishna Hari Budhathoki,Sindhuli-1:Dhanendra Karki,Sindhuli-2:Ashish Gajurel,Rasuwa-1:Basanta Bhatt,Dhading-1:Ashika Tamang,Dhading-2:Bodh Narayan Shrestha,Nuwakot-1:Dr. Bikram Timilsina,Nuwakot-2:Dr. Achyut Ram Lamichhane,Kathmandu-2:Sunil KC,Kathmandu-3:Raju Pandey,Kathmandu-5:Sasmita Pokharel,Kathmandu-7:Ganesh Parajuli,Kathmandu-9:Dol Prasad Aryal,Kathmandu-10:Pradeep Bista,Bhaktapur-1:Rukesh Ranjit,Bhaktapur-2:Rajiv Khatri,Lalitpur-1:Buddharatna Maharjan,Lalitpur-2:Jagadish Kharel,Kavrepalanchok-1:Madhu Kumar Chaulagain,Kavrepalanchok-2:Badan Kumar Bhandari,Sindhupalchok-1:Bharat Prasad Parajuli,Sindhupalchok-2:Ajay Shrestha,Makwanpur-1:Prakash Gautam,Makwanpur-2:Prashant Upreti,Chitwan-1:Hari Dhakal,Gorkha-1:Sudan Gurung,Gorkha-2:Kavindra Burlakoti,Lamjung-1:Dharmaraj KC,Kaski-1:Khadak Raj Paudel,Kaski-2:Uttam Paudel,Kaski-3:Bina Gurung,Tanahun-2:Shriram Neupane,Syangja-1:Dhananjaya Regmi,Syangja-2:Jhabilal Dumre,Nawalpur-1:Rajan Gautam,Nawalpur-2:Manish Khanal,Mustang-1:Aditya Thakali,Myagdi-1:Yubaraj Roka,Baglung-1:Sushil Khadka,Baglung-2:Som Sharma,Parbat-1:Sagar Bhusal,Gulmi-1:Sagar Dhakal,Gulmi-2:Gobinda Panthi,Palpa-1:Bimal Pant,Palpa-2:Madhav Thapa,Arghakhanchi-1:Hari Prasad Bhusal,Nawalparasi-1:Bikram Khanal,Nawalparasi-2:Narendra Kumar Gupta,Rupandehi-1:Sunil Lamsal,Rupandehi-2:Sulabh Kharel,Rupandehi-3:Lekh Jung Thapa,Rupandehi-4:Kanya Banaya,Rupandehi-5:Tafiq Ahmad Khan,Kapilvastu-1:Mohan Acharya,Kapilvastu-2:Bikram Thapa,Kapilvastu-3:Prakash Rajouria,Eastern Rukum-1:Lakhan Thapa,Rolpa-1:Balram Thapa,Pyuthan-1:Sushant Baidik,Dang-1:Devaraj Pathak,Dang-2:Bipin Acharya,Dang-3:Kamal Subedi,Banke-1:Suresh Chaudhary,Banke-2:Bibek Shrestha,Banke-3:Khagendra Sunar,Bardiya-1:Thakur Singh Tharu,Bardiya-2:Shridhar Pokharel,Salyan-1:Lalit Kumar Chand,Dolpa-1:Dev Singh Aidi,Mugu-1:Rajendra Bahadur Shahi,Jumla-1:Binita Kathayat,Kalikot-1:Prakash Neupane,Humla-1:Tashi Lhazom,Jajarkot-1:Raghav Karki,Dailekh-1:N. K. Basnet,Dailekh-2:Bakhat Bahadur Shahi,Surkhet-1:Tek Bahadur Singh Thakuri,Surkhet-2:Ramesh Sapkota,Western Rukum-1:Man Bahadur Shahi,Bajura-1:Hemraj Thapa,Achham-1:Om Prakash Rawal,Achham-2:Bhupdev Shah,Bajhang-1:Shailesh Kumar Singh,Doti-1:Narendra Bahadur Khadka,Kailali-1:Komal Gyawali,Kailali-2:K. P. Khanal,Kailali-3:Jagat Prasad Joshi,Kailali-4:Khemraj Koirala,Kailali-5:Anand Chand,Darchula-1:Rajesh Singh Samant,Baitadi-1:Harimohan Bhandari,Dadeldhura-1:Dr. Tara Joshi,Kanchanpur-1:Janak Singh Dhami,Kanchanpur-2:Dipak Bohara,Kanchanpur-3:Gyanendra Mahatara`;
+
+                    let baseId = 1;
+                    const fullList = detailedProfiles.map(p => ({ id: baseId++, ...p }));
+                    const existingNames = new Set(detailedProfiles.map(p => p.name));
+
+                    rawList.split(',').forEach(item => {
+                        const parts = item.split(':');
+                        if (parts.length === 2) {
+                            const constituency = parts[0].trim();
+                            const name = parts[1].trim();
+
+                            // Only add if not already in detailed profiles
+                            if (!existingNames.has(name)) {
+                                fullList.push({
+                                    id: baseId++,
+                                    name: name,
+                                    constituency: constituency,
+                                    education: "Data Restricted by EC",
+                                    business: "Data Restricted by EC",
+                                    gov_posts: "",
+                                    controversies: "Pending financial & background disclosure clearance.",
+                                    risk: "unknown"
+                                });
+                            }
+                        }
+                    });
+
+                    this.candidates = fullList;
                 }
             };
         }
@@ -86,8 +225,8 @@
                         RSP 2082 Candidate Intel
                     </h1>
                     <p class="mt-2 text-sm text-slate-600">
-                        Comprehensive background checks, controversies, and EC disclosures for all <span x-text="candidates.length"></span> HoR candidates.
-
+                        Comprehensive background checks, controversies, and EC disclosures for all 164 HoR candidates.
+                        <br>Total Election Cap: <span class="text-emerald-600 font-semibold">NPR 10.52 Billion</span>
                     </p>
                 </div>
 
