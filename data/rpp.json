@@ -1,1632 +1,2738 @@
 [
     {
-        "id": 1,
         "name": "Indra Prasad Thapa",
-        "constituency": "Taplejung-1",
-        "education": "Intermediate of Arts from Pathibhara Wahumukhi Kyampas",
+        "constituency": "Taplejung- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 2,
         "name": "Tej Kumar Kurumbang",
-        "constituency": "Panchthar-1",
-        "education": "Intermediate of Commerce (ICom) from Panchathar Kyampas",
+        "constituency": "Panchthar- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 3,
         "name": "Jwala Nepal",
-        "constituency": "Ilam-1",
+        "constituency": "Illam- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 4,
         "name": "Ganesh Prasad Dulal",
-        "constituency": "Ilam-2",
+        "constituency": "Illam- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 5,
         "name": "Hemraj Karki",
-        "constituency": "Jhapa-1",
-        "education": "Master's Degree from Tribhuvan University",
+        "constituency": "Jhapa- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 6,
         "name": "Bhadra Prasad Nepal",
-        "constituency": "Jhapa-2",
-        "education": "MA, MCJ, PhD Running from Tri Wi / Purwanychal Wishwawidyalay/ Lumbini Antarashtriy Wishwawidyalay",
+        "constituency": "Jhapa- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 7,
         "name": "Rajendra Prasad Lingden",
-        "constituency": "Jhapa-3",
-        "education": "Bachelor's Degree from Tribhuvan University",
+        "constituency": "Jhapa- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 8,
         "name": "Bhakti Prasad Sitaula",
-        "constituency": "Jhapa-4",
-        "education": "Bachelor's Degree from Tri Wi Wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 9,
-        "name": "Laxmi Prasad Sangraula",
-        "constituency": "Jhapa-5",
-        "education": "Intermediate of Arts (IA) from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 10,
-        "name": "Padam Bahadur Tamang",
-        "constituency": "Sankhuwasabha-1",
-        "education": "Intermediate of Arts (IA) from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 11,
-        "name": "Hombhakta Limbu (Kurumbang)",
-        "constituency": "Tehrathum-1",
+        "constituency": "Jhapa- 4",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 12,
-        "name": "Janak Nepal",
-        "constituency": "Bhojpur-1",
+        "name": "Laxmi Prasad Sangroula",
+        "constituency": "Jhapa- 5",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 13,
-        "name": "Bibhatsu Thapa",
-        "constituency": "Dhankuta-1",
-        "education": "BEd from Tri.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 14,
-        "name": "Purna Bahadur Baiba Tamang",
-        "constituency": "Morang-1",
-        "education": "Certificate Level (Passed) from Mechi Kyampas",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 15,
-        "name": "Kans Raj Rajbangshi",
-        "constituency": "Morang-2",
+        "name": "Purna Bahadur Waiba Tamang",
+        "constituency": "Morang- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 16,
+        "name": "Kans Raj Rajbanshi",
+        "constituency": "Morang- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
         "name": "Prem Prasad Subedi",
-        "constituency": "Morang-3",
-        "education": "I.A from",
+        "constituency": "Morang- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 17,
         "name": "Madhav Prasad Acharya",
-        "constituency": "Morang-4",
-        "education": "BBS from Mahendr Morngg Aadrsh Bahumukhi Kyampas",
+        "constituency": "Morang- 4",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 18,
-        "name": "Kumod Ray",
-        "constituency": "Morang-5",
-        "education": "Proficiency Certificate Level from Sarswati U.ma.wi. Dhanapalathan",
+        "name": "Kumod Raya",
+        "constituency": "Morang- 5",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 19,
-        "name": "Sabin Niraula",
-        "constituency": "Morang-6",
-        "education": "Bachelor's Degree from",
+        "name": "Savin Niraula",
+        "constituency": "Morang- 6",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 20,
-        "name": "Uddhav Shrestha",
-        "constituency": "Sunsari-1",
-        "education": "Master of Arts from Ti.yu",
+        "name": "Uddav Shrestha",
+        "constituency": "Sunsari- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 21,
         "name": "Dinesh Kumar Basnet",
-        "constituency": "Sunsari-2",
-        "education": "Intermediate of Arts from",
+        "constituency": "Sunsari- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 22,
-        "name": "Ghanashyam Gurung",
-        "constituency": "Sunsari-3",
-        "education": "School Leaving Certificate from",
+        "name": "Ghanshyan Gurung",
+        "constituency": "Sunsari- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 23,
         "name": "Prem Prasad Bhattarai",
-        "constituency": "Sunsari-4",
-        "education": "Intermediate of Arts (IA) from Tri.wi.wi",
+        "constituency": "Sunsari- 4",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 24,
+        "name": "Bibhatsu Thapa",
+        "constituency": "Dhankuta- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Padam Bahadur Tamang",
+        "constituency": "Sankhuwasabha- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Janak Nepal",
+        "constituency": "Bhojpur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Hombhakta Limbu (Kurumwang)",
+        "constituency": "Terhathum- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dika Prasad Bastola",
+        "constituency": "Okhaldhunga- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Deepak Tamang",
+        "constituency": "Khotang- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
         "name": "Rajendra Basnet",
-        "constituency": "Solukhumbu-1",
-        "education": "Higher Secondary (Grade 12) from Mnyju Dewi Bsnet",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 25,
-        "name": "Dipak Tamang",
-        "constituency": "Khotang-1",
+        "constituency": "Solukhumbu- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 26,
-        "name": "Dik Prasad Bastola",
-        "constituency": "Okhaldhunga-1",
-        "education": "Intermediate of Arts (IA) from Rumjatar U.ma.wi",
+        "name": "Subhash Chandra Khadka",
+        "constituency": "Udayapur- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 27,
-        "name": "Subhas Chandra Khadka",
-        "constituency": "Udayapur-1",
-        "education": "Higher Secondary (Grade 12) from Everest English Boarding School, Galko Pakha, Thamel",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 28,
         "name": "Bishnu Bahadur Khadka",
-        "constituency": "Udayapur-2",
+        "constituency": "Udayapur- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 29,
         "name": "Satya Jit Kumar Jha",
-        "constituency": "Saptari-1",
+        "constituency": "Saptari- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 30,
         "name": "Ajay Kumar Das",
-        "constituency": "Saptari-2",
-        "education": "Higher Secondary (Grade 12) from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 31,
-        "name": "Umdeshwar Prasad Sahu",
-        "constituency": "Saptari-3",
+        "constituency": "Saptari- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 32,
+        "name": "Umdeshowr Prasad Sahu",
+        "constituency": "Saptari- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
         "name": "Rup Kumar Neupane",
-        "constituency": "Saptari-4",
-        "education": "Snatak Tah Ba from L.na.mi.wi.wi. Bharat",
+        "constituency": "Saptari- 4",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 33,
         "name": "Basudev Sah",
-        "constituency": "Siraha-1",
-        "education": "Basic Read/Write from",
+        "constituency": "Siraha- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 34,
-        "name": "Shyam Kishor Sah Haluai",
-        "constituency": "Siraha-2",
-        "education": "S.L.C from Nepal Bord",
+        "name": "Shyam Kishor Sah Haluwai",
+        "constituency": "Siraha- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 35,
         "name": "Dev Dayal Singh",
-        "constituency": "Siraha-3",
-        "education": "Chhain",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 36,
-        "name": "Subhendra Kumar Sah",
-        "constituency": "Siraha-4",
-        "education": "Bachelor's Degree from Tribhuvan University",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 37,
-        "name": "Prabin Kumar Thokar/Tamang",
-        "constituency": "Dolakha-1",
-        "education": "Bachelor from Nepal",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 38,
-        "name": "Gore Tamang",
-        "constituency": "Ramechhap-1",
-        "education": "Basic Literate from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 39,
-        "name": "Ram Narayan Adhikari",
-        "constituency": "Sindhuli-1",
+        "constituency": "Siraha- 3",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 40,
-        "name": "Mukunad Prasad Gajurel",
-        "constituency": "Sindhuli-2",
-        "education": "PhD from Lelin Gran Phainans Wishw Widyalay Rasiya",
+        "name": "Suvendra Kumar Sah",
+        "constituency": "Siraha- 4",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 41,
         "name": "Manoj Malla Thakuri",
-        "constituency": "Dhanusha-1",
-        "education": "School Leaving Certificate from Janaki Ma.wi Janakapur",
+        "constituency": "Dhanusha- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 42,
-        "name": "Maheshwar Mandal",
-        "constituency": "Dhanusha-2",
-        "education": "Literate from",
+        "name": "Maheshwor Mandal",
+        "constituency": "Dhanusha- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 43,
         "name": "Hussain Kawari",
-        "constituency": "Dhanusha-3",
-        "education": "School Leaving Certificate from Janaki",
+        "constituency": "Dhanusha- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 44,
-        "name": "Ram Babu Sah Haluai",
-        "constituency": "Dhanusha-4",
-        "education": "Proficiency Certificate from",
+        "name": "Ram Babu Sahu Haluwai",
+        "constituency": "Dhanusha- 4",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 45,
         "name": "Hom Prasad Pokharel",
-        "constituency": "Mahottari-1",
-        "education": "+2 Pas from Shri Nawkshitij Skul",
+        "constituency": "Mahottari- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 46,
-        "name": "Sharat Singh Bhandari",
-        "constituency": "Mahottari-2",
-        "education": "Basic Literate from Shri Lkshmi Pra. Widyalay Hatisrwa",
+        "name": "Ramlakhan Sah Kanu",
+        "constituency": "Mahottari- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 47,
         "name": "Rajeshwar Ray",
-        "constituency": "Mahottari-3",
-        "education": "Bachelor's Degree from",
+        "constituency": "Mahottari- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 48,
         "name": "Sunil Kumar Singh",
-        "constituency": "Mahottari-4",
-        "education": "Class 12 Pass from Bihar",
+        "constituency": "Mahottari- 4",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 49,
-        "name": "Surya Narayan Ray Yadav",
-        "constituency": "Sarlahi-1",
-        "education": "I.SC. from",
+        "name": "Surya Narayan Raya Yadav",
+        "constituency": "Sarlahi- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 50,
-        "name": "Raj Kishor Ray Yadav",
-        "constituency": "Sarlahi-2",
-        "education": "S.L.C. from Shri Ke.g.ma.wi. Haripurwa",
+        "name": "Raj Kishor Raya Yadav",
+        "constituency": "Sarlahi- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 51,
         "name": "Dholram Barkoti",
-        "constituency": "Sarlahi-3",
-        "education": "SLC (School Leaving Certificate) from Shri Ch.j. Shahid Gangalal Ma.bi",
+        "constituency": "Sarlahi- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 52,
         "name": "Pradip Kumar Jha",
-        "constituency": "Sarlahi-4",
+        "constituency": "Sarlahi- 4",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 53,
-        "name": "Hari Prasad Ghimire",
-        "constituency": "Rasuwa-1",
+        "name": "Shree Madan Shah",
+        "constituency": "Rautahat- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 54,
-        "name": "Geeta Prasad Acharya",
-        "constituency": "Dhading-1",
-        "education": "School Leaving Certificate from Mahakali Ma.wi.tasrpu",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 55,
-        "name": "Suresh Rijal",
-        "constituency": "Dhading-2",
-        "education": "Higher Secondary (Grade 12) from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 56,
-        "name": "Bimal Thapa",
-        "constituency": "Nuwakot-1",
-        "education": "Plus Two (+2) from Ti.yu",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 57,
-        "name": "Jhanak Pyakurel",
-        "constituency": "Nuwakot-2",
-        "education": "Bachelor's Degree from Pipuls Kalej",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 58,
-        "name": "Ravindra Mishra",
-        "constituency": "Kathmandu-1",
-        "education": "Master's Degree from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 59,
-        "name": "Kunti Devi Pokharel (Upadhyay)",
-        "constituency": "Kathmandu-2",
-        "education": "Master's Degree from Tribhuwan Wish_wawidyalay",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 60,
-        "name": "Sundar Ram Bohara",
-        "constituency": "Kathmandu-3",
-        "education": "PhD from Singhaniya Wishwawidyalay, Bharat",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 61,
-        "name": "Surendra Raj Bhandari",
-        "constituency": "Kathmandu-4",
+        "name": "Rabindra Sah",
+        "constituency": "Rautahat- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 62,
-        "name": "Kamal Thapa",
-        "constituency": "Kathmandu-5",
-        "education": "Master's Degree from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 63,
-        "name": "Uddhav Raj Bhetuwal",
-        "constituency": "Kathmandu-6",
-        "education": "Master's Degree from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 64,
-        "name": "Lal Kumar Lama",
-        "constituency": "Kathmandu-7",
-        "education": "10 from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 65,
-        "name": "Nabin Shahi",
-        "constituency": "Kathmandu-8",
-        "education": "IA from Tribhuvan University",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 66,
-        "name": "Dil Kumar Karki",
-        "constituency": "Kathmandu-9",
-        "education": "Bachelor's Degree from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 67,
-        "name": "Bal Ram Thapa",
-        "constituency": "Kathmandu-10",
+        "name": "Sikindra Raya Yadav",
+        "constituency": "Rautahat- 3",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 68,
-        "name": "Bharat Bahadur Khadka",
-        "constituency": "Bhaktapur-1",
-        "education": "Master's Degree (MPA) from Tribhuwan Wishwawidyalay",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 69,
-        "name": "Bikram Thapa",
-        "constituency": "Bhaktapur-2",
+        "name": "Ruplal Raya Yadav",
+        "constituency": "Rautahat- 4",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 70,
-        "name": "Sajina Karki",
-        "constituency": "Lalitpur-1",
+        "name": "Nanda Kishor Prasad Shribastav",
+        "constituency": "Parsa- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 71,
-        "name": "Raghubar Raj Thapa",
-        "constituency": "Lalitpur-2",
-        "education": "Masters from",
+        "name": "Bina Jaiswal",
+        "constituency": "Parsa- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 72,
-        "name": "Sabin Kumar Khadka",
-        "constituency": "Lalitpur-3",
-        "education": "School Leaving Certificate from Nepal Sarakar",
+        "name": "Nabin Kumar Singh",
+        "constituency": "Parsa- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 73,
-        "name": "Navraj Satyal",
-        "constituency": "Kavrepalanchowk-1",
-        "education": "Bachelor's Degree from",
+        "name": "Shanta Kumar Joshi",
+        "constituency": "Parsa- 4",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 74,
-        "name": "Ranjiv Shrestha",
-        "constituency": "Kavrepalanchowk-2",
-        "education": "Master's Degree from Tribhuvan University",
+        "name": "Ram Narayan Adhikari",
+        "constituency": "Sindhuli- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 75,
+        "name": "Mukunda Prasad Gajurel",
+        "constituency": "Sindhuli- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gore Tamang",
+        "constituency": "Ramechhap- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Prabin Kumar Thokar Tamang",
+        "constituency": "Dolakha- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
         "name": "Ram Mani Neupane",
-        "constituency": "Sindhupalchowk-1",
+        "constituency": "Sindhupalchok- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 76,
         "name": "Gopi Krishna Chaulagain",
-        "constituency": "Sindhupalchowk-2",
-        "education": "Engineer from",
+        "constituency": "Sindhupalchok- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 77,
+        "name": "Navraj Satyal",
+        "constituency": "Kavrepalanchok- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ranjib Shrestha",
+        "constituency": "Kavrepalanchok- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sajina Karki",
+        "constituency": "Lalitpur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Raghubar Raj Thapa",
+        "constituency": "Lalitpur- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sabin Kumar Khadka",
+        "constituency": "Lalitpur- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bharat Bahadur Khadka",
+        "constituency": "Bhaktapur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bikram Thapa",
+        "constituency": "Bhaktapur- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rabindra Mishra",
+        "constituency": "Kathmandu- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kunti Devi Pokharel (Upadhyay)",
+        "constituency": "Kathmandu- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sundar Ram Bohara",
+        "constituency": "Kathmandu- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Surendra Raj Bhandari",
+        "constituency": "Kathmandu- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kamal Thapa",
+        "constituency": "Kathmandu- 5",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Uddav Raj Bhetuwal",
+        "constituency": "Kathmandu- 6",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lal Kumar Lama",
+        "constituency": "Kathmandu- 7",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Nabin Shahi",
+        "constituency": "Kathmandu- 8",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dil Kumar Karki",
+        "constituency": "Kathmandu- 9",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bal Ram Thapa",
+        "constituency": "Kathmandu- 10",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bimal Thapa",
+        "constituency": "Nuwakot- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jhanak Pyakurel",
+        "constituency": "Nuwakot- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Hari Prasad Ghimire",
+        "constituency": "Rasuwa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Geeta Prasad Acharya",
+        "constituency": "Dhading- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Suresh Rijal",
+        "constituency": "Dhading- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
         "name": "Dipak Bahadur Singh",
-        "constituency": "Makwanpur-1",
-        "education": "Bachelor's Degree from Tri.wi",
+        "constituency": "Makwanpur- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 78,
         "name": "Ram Bahadur Thokar",
-        "constituency": "Makwanpur-2",
-        "education": "10+2 from Bhutanadewi Ma.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 79,
-        "name": "Shri Madan Shah",
-        "constituency": "Rautahat-1",
-        "education": "BA from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 80,
-        "name": "Ravindra Sah",
-        "constituency": "Rautahat-2",
-        "education": "School Leaving Certificate from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 81,
-        "name": "Sikindar Ray Yadav",
-        "constituency": "Rautahat-3",
-        "education": "Literate from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 82,
-        "name": "Ruplal Ray Yadav",
-        "constituency": "Rautahat-4",
-        "education": "SLC (School Leaving Certificate) from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 83,
-        "name": "Laxmi Prasad Sa Kalwar",
-        "constituency": "Bara-1",
-        "education": "Class 10 Pass from Shri Buddhagai Ma.wi.bara",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 84,
-        "name": "Lalbabu Prasad Sah Teli",
-        "constituency": "Bara-2",
-        "education": "School Leaving Certificate from Shri Ne.ra.ma.wi. Pipradhi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 85,
-        "name": "Rajendra Prasad Jaiswar",
-        "constituency": "Bara-3",
-        "education": "Bachelor's Degree from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 86,
-        "name": "Dilip Kumar Sharma Nepal",
-        "constituency": "Bara-4",
-        "education": "B.A. from Pashupati Bahumukhi Kyampas Chawahil Kathamandaun",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 87,
-        "name": "Nand Kishor Prasad Srivastava",
-        "constituency": "Parsa-1",
-        "education": "School Leaving Certificate from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 88,
-        "name": "Sushil Kumar Kanu",
-        "constituency": "Parsa-2",
-        "education": "MBA from Byanggalor Yunibhrsiti",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 89,
-        "name": "Ramakant Prasad Chaurasiya",
-        "constituency": "Parsa-3",
-        "education": "Civil Engineer from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 90,
-        "name": "Tek Bahadur Shakya",
-        "constituency": "Parsa-4",
-        "education": "IAK CTC from Rksaul Pshchim Chmparan",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 91,
-        "name": "Hari Dhakal",
-        "constituency": "Chitwan-1",
-        "education": "I Com from Sahid Smriiti Bahumukhi Kyampas",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 92,
-        "name": "Jagadishwor Adhikari",
-        "constituency": "Chitwan-2",
+        "constituency": "Makwanpur- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 93,
+        "name": "Balram Sharma Khanal",
+        "constituency": "Chitwan- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jagadishwar Adhikari",
+        "constituency": "Chitwan- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
         "name": "Dipak Thapa (Magar)",
-        "constituency": "Chitwan-3",
-        "education": "Bachelor's Degree from",
+        "constituency": "Chitwan- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 94,
         "name": "Kedar Mani Khanal",
-        "constituency": "Gorkha-1",
+        "constituency": "Gorkha- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 95,
         "name": "Kul Bahadur Basnet",
-        "constituency": "Gorkha-2",
+        "constituency": "Gorkha- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 96,
-        "name": "Kebindra Jang Gurung",
-        "constituency": "Lamjung-1",
-        "education": "Class 8 Pass from Shri Amar Ma.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 97,
-        "name": "Babu Ram Thapa",
-        "constituency": "Kaski-1",
+        "name": "Kebindra Jung Gurung",
+        "constituency": "Lamjung- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 98,
-        "name": "Hem Jang Gurung",
-        "constituency": "Kaski-2",
-        "education": "Civil Engineering from Indiyan Instichyut Aph Injiniyaring",
+        "name": "Ramdatta Joshi",
+        "constituency": "Tanahun- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 99,
-        "name": "Arjun Prasad Khanal",
-        "constituency": "Kaski-3",
-        "education": "Master's Degree from Tri.wi.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 100,
-        "name": "Ramdatt Joshi",
-        "constituency": "Tanahun-1",
-        "education": "B.A from T.U",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 101,
         "name": "Yam Bahadur Thakuri",
-        "constituency": "Tanahun-2",
-        "education": "I.A. from Tribhuwan Wishwawidyalay",
+        "constituency": "Tanahun- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 102,
         "name": "Hukum Bahadur Rana",
-        "constituency": "Syangja-1",
-        "education": "S.L.C from Hich School",
+        "constituency": "Syangja- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 103,
         "name": "Rabin Pathak",
-        "constituency": "Syangja-2",
-        "education": "Bachelor from Tribhuvan University",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 104,
-        "name": "Ajit Kumar Shrestha",
-        "constituency": "Gulmi-1",
-        "education": "SLC (School Leaving Certificate) from Ridi Ma.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 105,
-        "name": "Janak Sen",
-        "constituency": "Gulmi-2",
-        "education": "BA from Prithwi Ma.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 106,
-        "name": "Brihaspati Aryal",
-        "constituency": "Palpa-1",
-        "education": "Test Pass from Daraithati Ma.wi. Ramapur, Palpa",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 107,
-        "name": "Dul Bahadur Kunwar",
-        "constituency": "Palpa-2",
-        "education": "Intermediate of Arts (IA) from Tribhuwan Bahumukhi Kyampas Palpa",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 108,
-        "name": "Jhabindra Phullel",
-        "constituency": "Arghakhanchi-1",
-        "education": "Intermediate of Arts (IA) Pass from T.U",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 109,
-        "name": "Dipak Chandra Bastakoti",
-        "constituency": "Nawalparasi (East)-1",
+        "constituency": "Syangja- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 110,
-        "name": "Run Kumari Mahato",
-        "constituency": "Nawalparasi (East)-2",
-        "education": "Master's Degree (Education) from Tribhuwan Wishwawidyalay",
+        "name": "Babu Ram Thapa",
+        "constituency": "Kaski- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 111,
-        "name": "Prajjwal Bohara",
-        "constituency": "Rupandehi-1",
-        "education": "SLC (School Leaving Certificate) from",
+        "name": "Hem Jung Gurung",
+        "constituency": "Kaski- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 112,
-        "name": "Gaurav Bohara",
-        "constituency": "Rupandehi-3",
-        "education": "ATPL from FAA (USA)",
+        "name": "Arjun Prasad Khanal",
+        "constituency": "Kaski- 3",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 113,
-        "name": "Ahmaddin Musalman",
-        "constituency": "Rupandehi-4",
-        "education": "Bachelor's Degree from Tribhuvan University",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 114,
-        "name": "Min Prasad Ghimire",
-        "constituency": "Rupandehi-5",
-        "education": "10+2 pass from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 115,
-        "name": "Shatrughan Bilas Singh Kurmi",
-        "constituency": "Kapilbastu-1",
-        "education": "School Leaving Certificate from Sanskriti Ma.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 116,
-        "name": "Vishnu Prasad Bhandari",
-        "constituency": "Kapilbastu-2",
-        "education": "Master's Degree from Tribhuwan Wishwawidyalay",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 117,
-        "name": "Prem Shankar Shukla",
-        "constituency": "Kapilbastu-3",
-        "education": "Slc from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 118,
         "name": "Kamala Lalchan",
-        "constituency": "Mustang-1",
-        "education": "BEd from Shidhanath Bahumukhi Kyampas",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 119,
-        "name": "Dambar Bahadur Subedi",
-        "constituency": "Myagdi-1",
-        "education": "Bachelor's Degree from Myagdi Wahumukhi Kyampas Beni",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 120,
-        "name": "Kalyan Acharya",
-        "constituency": "Baglung-1",
-        "education": "Master's Degree from Tri.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 121,
-        "name": "Anchal Shahi",
-        "constituency": "Baglung-2",
+        "constituency": "Mustang- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 122,
         "name": "Durga Bahadur Malla",
-        "constituency": "Parbat-1",
-        "education": "Literate from",
+        "constituency": "Parbat- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 123,
-        "name": "Roshan Shah",
-        "constituency": "Rukum (East)-1",
-        "education": "Plus Two (+2) from Khalanga Bahumukhi Kyampas Rukum Pshchim",
+        "name": "Dambhar Bahadur Suvedi",
+        "constituency": "Myagdi- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 124,
+        "name": "Kalyan Acharya",
+        "constituency": "Baglung- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Anchal Shahi",
+        "constituency": "Baglung- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Deepak Chandra Bastakoti",
+        "constituency": "Nawalparasi East- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Roon Kumari Mahato",
+        "constituency": "Nawalparasi East- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ajit Kumar Shrestha",
+        "constituency": "Gulmi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Janak Sen",
+        "constituency": "Gulmi- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Brihaspati Aryal",
+        "constituency": "Palpa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dul Bahadur Kunwar",
+        "constituency": "Palpa- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Prajwal Bohara",
+        "constituency": "Rupandehi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gaurab Bohara",
+        "constituency": "Rupandehi- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ahmaddin Musalman",
+        "constituency": "Rupandehi- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Min Prasad Ghimire",
+        "constituency": "Rupandehi- 5",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jhabindra Phullel",
+        "constituency": "Arghakhanchi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Shatrughan Bilas Singh Kurmi",
+        "constituency": "Kapilvastu- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bishnu Prasad Bhandari",
+        "constituency": "Kapilvastu- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Prem Shankar Shukla",
+        "constituency": "Kapilvastu- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Daneshwar Pandit",
+        "constituency": "Pyuthan- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
         "name": "Ammar Bahadur Thapa Chhetri",
-        "constituency": "Rolpa-1",
-        "education": "Class 6 Pass from Jan Jyoti Ma.wi. Gajul Rolpa",
+        "constituency": "Rolpa- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 125,
-        "name": "Dhaneswor Pandit",
-        "constituency": "Pyuthan-1",
-        "education": "Intermediate of Arts from Janata Ma.wi.bagdula",
+        "name": "Vinay B.C.",
+        "constituency": "Dang- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 126,
-        "name": "Anisha Nepali",
-        "constituency": "Salyan-1",
-        "education": "Bachelor's Degree from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 127,
-        "name": "Vinay V.C.",
-        "constituency": "Dang-1",
-        "education": "Master's Degree from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 128,
         "name": "Rishi Kesh Pokhrel",
-        "constituency": "Dang-2",
-        "education": "MBS from",
+        "constituency": "Dang- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 129,
         "name": "Damodar Bhandari",
-        "constituency": "Dang-3",
-        "education": "B.Com Pass from Mahendr Bahumukhi Kyamapas Nepalagnyj Banke",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 130,
-        "name": "Hari Prasad Dangi",
-        "constituency": "Dolpa-1",
-        "education": "8 Pas from Nepal Bord",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 131,
-        "name": "Bal Bahadur Malla",
-        "constituency": "Mugu-1",
-        "education": "Slc from mahakali mavi mugu",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 132,
-        "name": "Gyan Bahadur Shahi",
-        "constituency": "Jumla-1",
+        "constituency": "Dang- 3",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 133,
-        "name": "Surya Bahadur Shahi",
-        "constituency": "Kalikot-1",
-        "education": "+2 Pas from Shri Panchadew Uchch Madhyamik Widyalay, Manm, Kalikot",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 134,
-        "name": "Chhakka Budha",
-        "constituency": "Humla-1",
-        "education": "Certificate Level from Manasarowar Ma. Wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 135,
-        "name": "Krishna Bikram Shah",
-        "constituency": "Jajarkot-1",
-        "education": "10+2 Pas from HSEB",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 136,
-        "name": "Ran Bahadur Singh",
-        "constituency": "Dailekh-1",
-        "education": "School Leaving Certificate from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 137,
-        "name": "Babita Kumari Shahi",
-        "constituency": "Dailekh-2",
-        "education": "Master of Education from T.U",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 138,
-        "name": "Rabi Hamal Thakuri",
-        "constituency": "Surkhet-1",
-        "education": "Master's Degree from Tribhuwan Wishwawidhalay",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 139,
-        "name": "Kabi Ram Puri",
-        "constituency": "Surkhet-2",
-        "education": "Intermediate of Law (IL) from Tribhuwan Wishwawidyalay Smbndhan Prapt Kalej",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 140,
-        "name": "Pradip Kumar Shah",
-        "constituency": "Banke-1",
-        "education": "Information not available",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 141,
-        "name": "Rishi Raj Devkota",
-        "constituency": "Banke-2",
-        "education": "Bachelor's Degree from Tri Wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 142,
-        "name": "Tarak Singh Tharu",
-        "constituency": "Banke-3",
-        "education": "BACHELOR from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 143,
         "name": "Bir Bahadur Kami",
-        "constituency": "Bardiya-1",
+        "constituency": "Bardiya- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 144,
         "name": "Sushil Chaudhary",
-        "constituency": "Bardiya-2",
+        "constituency": "Bardiya- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 145,
-        "name": "Keshar Bahadur Shahi",
-        "constituency": "Bajura-1",
-        "education": "School Leaving Certificate from Badimalika Ma.wi",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 146,
-        "name": "Lokendra Bahadur Shah",
-        "constituency": "Achham-1",
-        "education": "SLC Pass from Yashoda Madhyamik Widyalay",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 147,
-        "name": "Min Bahadur Shahi",
-        "constituency": "Achham-2",
-        "education": "12 pass from shidhaeswori mavi Dhamali",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 148,
-        "name": "Bishwa Prakash Jethara",
-        "constituency": "Bajhang-1",
-        "education": "Bachelor's Degree from Jayaprithwi Kyampas",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 149,
-        "name": "Khadak Bahadur Agrawal",
-        "constituency": "Doti-1",
-        "education": "I ED from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 150,
-        "name": "Lokendra Kunwar",
-        "constituency": "Kailali-1",
-        "education": "Master's Degree from Tribhuwan Wishwiwdyalay",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 151,
-        "name": "Bharat Singh V.C.",
-        "constituency": "Kailali-2",
-        "education": "Slc from",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 152,
-        "name": "Birendra Bahadur Bam",
-        "constituency": "Kailali-3",
-        "education": "B.A from Trichndr Kalej",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 153,
-        "name": "Kamal Rajawar",
-        "constituency": "Kailali-4",
-        "education": "Master's Degree from Askal Kyampas",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 154,
-        "name": "Roshan Shahi",
-        "constituency": "Kailali-5",
-        "education": "+2 Pramanaptr Tah from Kailali Bahumukhi Kyampas",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 155,
-        "name": "Rajesh Chand",
-        "constituency": "Darchula-1",
+        "name": "Pradeep Kumar Shah",
+        "constituency": "Banke- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 156,
-        "name": "Bhupen Bahadur Chand",
-        "constituency": "Baitadi-1",
+        "name": "Rishi Raj Devkota",
+        "constituency": "Banke- 2",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 157,
-        "name": "Govinda Khadayat",
-        "constituency": "Dadeldhura-1",
-        "education": "MSC yoga and science. from Tribhuwan Wishw Widyalay,anna Mlla Wishwawidyalay, Bharat",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 158,
-        "name": "Dilli Bahadur Shahi",
-        "constituency": "Kanchanpur-1",
+        "name": "Tarak Singh Tharu",
+        "constituency": "Banke- 3",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 159,
-        "name": "Tirtha Raj Chataut",
-        "constituency": "Kanchanpur-2",
-        "education": "Bachelor's Degree from Mahendr Rtn Rajy Kyamapas",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 160,
-        "name": "Purna Bahadur Chand",
-        "constituency": "Kanchanpur-3",
+        "name": "Navanit Kumar Mishra",
+        "constituency": "Nawalparasi West- 1",
         "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 161,
-        "name": "Navnit Kumar Mishra",
-        "constituency": "Nawalparasi (West)-1",
-        "education": "_+2 from Ginij Intaraneshanal Kalej Gaushala Kathamadaun",
-        "business": "Information not available",
-        "gov_posts": "Information not available",
-        "controversies": "No major controversies found.",
-        "risk": "Low"
-    },
-    {
-        "id": 162,
         "name": "Dhubra Bahadur Pradhan",
-        "constituency": "Nawalparasi (West)-2",
-        "education": "Master's Degree from Tribhuwan Wishwawidyalay",
+        "constituency": "Nawalparasi West- 2",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
     },
     {
-        "id": 163,
-        "name": "Gopal Khadka",
-        "constituency": "Rukum (West)-1",
-        "education": "Intermediate of Arts (IA) from Rapti Babai Kyampas Tulsipur",
+        "name": "Roshan Shah",
+        "constituency": "Rukum East- 1",
+        "education": "Information not available",
         "business": "Information not available",
         "gov_posts": "Information not available",
         "controversies": "No major controversies found.",
-        "risk": "Low"
+        "risk": "unknown"
+    },
+    {
+        "name": "Gopal Khadka",
+        "constituency": "Rukum West- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Anisha Nepali",
+        "constituency": "Salyan- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rabi Hamal Thakuri",
+        "constituency": "Surkhet- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kabi Ram Puri",
+        "constituency": "Surkhet- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rana Bahadur Singh",
+        "constituency": "Dailekh- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Babita Kumari Shahi",
+        "constituency": "Dailekh- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Krishna Bikram Shah",
+        "constituency": "Jajarkot- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Hari Prasad Dangi",
+        "constituency": "Dolpa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Chhakka Budha",
+        "constituency": "Humla- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Surya Bahadur Shahi",
+        "constituency": "Kalikot- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bal Bahadur Malla",
+        "constituency": "Mugu- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gyan Bahadur Shahi",
+        "constituency": "Jumla- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Keshar Bahadur Shahi",
+        "constituency": "Bajura- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bishwa Prakash Jethara",
+        "constituency": "Bajhang- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lokendra Bahadur Shahi",
+        "constituency": "Achham- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Min Bahadur Shahi",
+        "constituency": "Achham- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Khadak Bahadur Agrawal",
+        "constituency": "Doti- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lokendra Kunwar",
+        "constituency": "Kailali- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bharat Singh B.K. (Buda Chhetri)",
+        "constituency": "Kailali- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Birendra Bahadur Bam",
+        "constituency": "Kailali- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kamal Rajwar",
+        "constituency": "Kailali- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Roshan Shahi",
+        "constituency": "Kailali- 5",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dilli Bahadur Shahi",
+        "constituency": "Kanchanpur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Tirtha Raj Chhauthat",
+        "constituency": "Kanchanpur- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Purna Bahadur Chanda",
+        "constituency": "Kanchanpur- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Govind Kathayat",
+        "constituency": "Dadeldhura- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bhupen Bahadur Chanda",
+        "constituency": "Baitadi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rajesh Chand",
+        "constituency": "Darchula- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ram Bahadur Karki",
+        "constituency": "Taplejung- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kamal Bahadur Chemjong",
+        "constituency": "Panchthar- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Toya Nath Sharma Sapkota",
+        "constituency": "Illam- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Laxmi Gurung",
+        "constituency": "Illam- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rajendra Prasad Lingden",
+        "constituency": "Jhapa- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Hom Nath Gautam",
+        "constituency": "Morang- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gopal Dahal",
+        "constituency": "Morang- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rekha Thapa",
+        "constituency": "Morang- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rabi Rijal",
+        "constituency": "Morang- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rewati Bahadur Thapa",
+        "constituency": "Morang- 5",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gopal Shrestha",
+        "constituency": "Morang- 6",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ashok Kumar Rai",
+        "constituency": "Sunsari- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dinesh Kumar Basnet",
+        "constituency": "Sunsari- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kuldeep Chaudhary",
+        "constituency": "Sunsari- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Biddhananda Yadav",
+        "constituency": "Sunsari- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kumar Bahadur Thapa",
+        "constituency": "Dhankuta- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bhola Maan Karki",
+        "constituency": "Sankhuwasabha- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jitendra Ghale",
+        "constituency": "Bhojpur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Yub Ram Gautam",
+        "constituency": "Terhathum- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dik Prasad Bastola",
+        "constituency": "Okhaldhunga- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sarju Shrestha",
+        "constituency": "Khotang- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gyanendra Bahadur Basnet",
+        "constituency": "Solukhumbu- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dhurba Kumar Raimajhi",
+        "constituency": "Udayapur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Banshidhar Neupane",
+        "constituency": "Udayapur- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bishnu Dev Yadav",
+        "constituency": "Saptari- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kaila Mansuri (Miya)",
+        "constituency": "Saptari- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ganga Ram Thakur",
+        "constituency": "Saptari- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Makun Chaudhary",
+        "constituency": "Saptari- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dinesh Kumar Mahato",
+        "constituency": "Siraha- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Murali Mijhar",
+        "constituency": "Siraha- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gowardhan Das Tatma",
+        "constituency": "Siraha- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Nagina Kumar Jha",
+        "constituency": "Siraha- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Manoj Malla Thakuri",
+        "constituency": "Dhanusa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Raj Kumar Adhikari",
+        "constituency": "Dhanusa- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ram Padarath Mandal",
+        "constituency": "Dhanusa- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Anirudha Yadav",
+        "constituency": "Dhanusa- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Puja Ghimire",
+        "constituency": "Mahottari- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rajendra Prasad Mainali",
+        "constituency": "Sarlahi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bikesh Mahato",
+        "constituency": "Sarlahi- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Mahesh Mahato",
+        "constituency": "Sarlahi- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sikindra Rai Yadav",
+        "constituency": "Rauthat- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ruplal Rai Yadav",
+        "constituency": "Rauthat- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bhakta Bahadur Darlami",
+        "constituency": "Bara- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sonalal Prasad",
+        "constituency": "Bara- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rupnarayan Thakur Lohar",
+        "constituency": "Bara- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jaleel Dewan",
+        "constituency": "Bara- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kiran Man Dangol",
+        "constituency": "Parsa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Naresh Kumar Shah",
+        "constituency": "Parsa- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Angad Thakur",
+        "constituency": "Parsa- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Abdesh Prasad Gauro",
+        "constituency": "Parsa- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Shaligram Majhi",
+        "constituency": "Sindhuli- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bhismaraj Shrestha",
+        "constituency": "Sindhuli- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lal Bahadur Ghising",
+        "constituency": "Ramechhap- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bijaya Khadka",
+        "constituency": "Dolkha- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Narayan Pandey",
+        "constituency": "Sindhupalchowk- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Nar Singh Shrestha",
+        "constituency": "Sindhupalchowk- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Purna Bahadur Biswakarma",
+        "constituency": "Kavrepalanchowk- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Yasu Ale Magar",
+        "constituency": "Kavrepalanchowk- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sandeep Acharya",
+        "constituency": "Lalitpur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Raghuwar Raj Thapa",
+        "constituency": "Lalitpur- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Niranjan Thapa",
+        "constituency": "Lalitpur- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bharat Bahadur Khadka",
+        "constituency": "Bhaktapur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Mohan K.C",
+        "constituency": "Bhaktapur- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rabindra Mishra",
+        "constituency": "Kathmandu- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kanti Devi Pokharel",
+        "constituency": "Kathmandu- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ganesh Giri",
+        "constituency": "Kathmandu- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dr. Thakur Mohan Shrestha",
+        "constituency": "Kathmandu- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ram Prasad Upreti",
+        "constituency": "Kathmandu- 5",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bishnu Prasad Acharya",
+        "constituency": "Kathmandu- 6",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dhub Bikram Malla",
+        "constituency": "Kathmandu- 7",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Prakash Rimal",
+        "constituency": "Kathmandu- 8",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Devendra Pradhan",
+        "constituency": "Kathmandu- 9",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bal Ram Thapa",
+        "constituency": "Kathmandu- 10",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sudarshan Sitaula",
+        "constituency": "Nuwakot- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jhanak Pyakurel",
+        "constituency": "Nuwakot- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Tika Prasad Devkota",
+        "constituency": "Rasuwa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dipak Bahadur Singh",
+        "constituency": "Makwanpur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rajan Mainali",
+        "constituency": "Makwanpur- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Madhup Kumar Bhattarai",
+        "constituency": "Chitwan- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jivlal Puru",
+        "constituency": "Chitwan- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bikram Pandey",
+        "constituency": "Chitwan- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Udaya Prasad Bhatta",
+        "constituency": "Gorkha- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sushil Panta",
+        "constituency": "Gorkha- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Balchandra Shrestha",
+        "constituency": "Lamjung- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Shova Gurung",
+        "constituency": "Tanahun- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Narendra Pratap Mahat",
+        "constituency": "Tanahun- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Khyam Bahadur Gurung",
+        "constituency": "Syangja- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lalgopal Aryal",
+        "constituency": "Syangja- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Surya Bahadur Gurung",
+        "constituency": "Kaski- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Subarna Raj Panta",
+        "constituency": "Kaski- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jagat Prasad Subedi",
+        "constituency": "Kaski- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dipak Bahadur Malla",
+        "constituency": "Parbat- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jagat Prasad Gauchan",
+        "constituency": "Myagdi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Laxmi Prasad Sapkota",
+        "constituency": "Baglung- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dr. Mohani Lal Bhushal",
+        "constituency": "Nawalparasi East- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bishnu Prasad Sharma",
+        "constituency": "Nawalparasi East- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ganesh Pandey",
+        "constituency": "Gulmi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Yuvraj Ghimire",
+        "constituency": "Gulmi- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gyan Bahadur Sinjali",
+        "constituency": "Palpa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dipak Bohara",
+        "constituency": "Rupandehi- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Hom Narayan Belbase",
+        "constituency": "Arghakhanchi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dhurba Bahadur Rayamajhi",
+        "constituency": "Kapilvastu- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Sabita Sharma",
+        "constituency": "Kapilvastu- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Prakash Rajauriya",
+        "constituency": "Kapilvastu- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "hom Bahadur Budhathoki Magar",
+        "constituency": "Pyuthan- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lila Rawal",
+        "constituency": "Rolpa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lili Budhathoki",
+        "constituency": "Dang- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bholanath Yogi",
+        "constituency": "Dang- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Aoj Bahadur Khadka",
+        "constituency": "Dang- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Surya Bahadur Singh",
+        "constituency": "Bardiya- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Binaya Rawal",
+        "constituency": "Bardiya- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dhawal ShamSher Jung Bahadur Rana",
+        "constituency": "Banke- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bhoj Raj Dhakal",
+        "constituency": "Nawalparasi West- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dhurba Bahadur Pradhan",
+        "constituency": "Nawalparasi West- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Khim Bahadur Khatri",
+        "constituency": "Rukum East- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dipak Kumar Malla",
+        "constituency": "Rukum West- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Netra Lal Shrestha",
+        "constituency": "Salyan- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Chhatrapati Thapa Chhetri",
+        "constituency": "Surkhet- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bhim Bahadur Shahi",
+        "constituency": "Surkhet- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kunti Kumari Shahi",
+        "constituency": "Dailekh- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lokendra Raj Giri",
+        "constituency": "Dailekh- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dipak Khanal",
+        "constituency": "Jajarkot- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Angad Kumar Budha",
+        "constituency": "Dolpa- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Tej Bahadur Rawat",
+        "constituency": "Humla- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dhan Bahadur Budha",
+        "constituency": "Kalikot- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Raj Bahadur Malla",
+        "constituency": "Mugu- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ghyan Bahadur Shahi",
+        "constituency": "Jumla- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jung Kumar Giri",
+        "constituency": "Bajura- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Biswa Prakash Jethara",
+        "constituency": "Bajhang- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Min Bahadur Shahi",
+        "constituency": "Achham- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Anka Bahadur Khadka",
+        "constituency": "Doti- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Lokendra Kunwar",
+        "constituency": "Kailali- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bharat Singh B.C.(Budha Chhetri)",
+        "constituency": "Kailali- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Birendra Bahadur Bam",
+        "constituency": "Kailali- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Jay Bahadur Dhami",
+        "constituency": "Kailali- 4",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dilli Bahadur Shahi",
+        "constituency": "Kanchanpur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Ashok Bahadur Singh",
+        "constituency": "Kanchanpur- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Gobinda Khadayat",
+        "constituency": "Dadeldhura- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dev Bahadur Chand",
+        "constituency": "Baitadi- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Narendra Singh Dhami",
+        "constituency": "Darchula- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Rajendra Lingden",
+        "constituency": "Jhapa- 3",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Bikram Bahadur Thapa",
+        "constituency": "Kathmandu- 7",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Kamal Thapa",
+        "constituency": "Makwanpur- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Om Prakash Ajad",
+        "constituency": "Banke- 2",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
+    },
+    {
+        "name": "Dipak Kumar Shahi",
+        "constituency": "Dailekh- 1",
+        "education": "Information not available",
+        "business": "Information not available",
+        "gov_posts": "Information not available",
+        "controversies": "No major controversies found.",
+        "risk": "unknown"
     }
 ]
